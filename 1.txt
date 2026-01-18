@@ -1,0 +1,196 @@
+“Transversal kompetensiyalarni rivojlantirish”
+nomli elektron ilova
+
+Kirish. Assalomu alaykum hurmatli talaba. Mazkur platforma orqali siz kasbiy transversal kompetensiyalaringizni rivojlantirishingiz mumkin. Platforma beshta asosiy moduldan tashkil topgan bo‘lib, ular transversal kompetensiyalarni qamrab oladi.  
+
+Modullar:
+1. Tanqidiy va innovatsion fikrlash
+2. Shaxslararo ko‘nikmalar
+3. Shaxsiy qobiliyatlar
+4. Global fuqarolik kompetensiyasi
+5. Media va axborot savodxonligi kompetensiyasi
+
+1-modul. Tanqidiy va innovatsion fikrlash.
+1.Tanqidiy va innovatsion fikrlash nima?
+2. Case study
+3. Tanqidiy va innovatsion fikrlashni rivojlantiruvchi o‘yin
+4. Diagrammalar bilan ishlash
+5. Test 
+
+1-topshiriq. “Tanqidiy va innovatsion fikrlash nima?”
+(Ma’ruza matni – nazariy blok)
+Tanqidiy fikrlash – bu ma’lumotni ko‘r-ko‘rona qabul qilmasdan, uni tahlil qilish, savol berish, dalillarni solishtirish, mustaqil xulosa chiqarish va qaror qabul qilish jarayonidir. Bo‘lajak tarbiyachi uchun tanqidiy fikrlash mashg‘ulotlarni rejalashtirishda, bolalar rivojlanishidagi muammolarni aniqlashda, har bir pedagogik vaziyatga bir nechta tomondan qaray olishda namoyon bo‘ladi.
+Innovatsion fikrlash – mavjud muammo yoki vaziyatga yangicha, noan’anaviy, ijodiy yechim topish qobiliyatidir. Bo‘lajak tarbiyachi innovatsion fikrlash orqali bolalar bilan ishlashda odatiy usullardan tashqari interfaol o‘yinlar, raqamli texnologiyalar, loyiha usullarini qo‘llaydi.
+Tanqidiy va innovatsion fikrlashning bo‘lajak tarbiyachilar kasbiy transversal kompetensiyasidagi o‘rni:
+•	turli axborot manbalarini solishtirish, asossiz fikrni tan olish emas;
+•	bolalarning xatti-harakati va rivojlanish dinamikasini kuzatib, pedagogik xulosaga kelish;
+•	mashg‘ulotlar mazmunini takomillashtirish uchun yangi usullarni sinab ko‘rish;
+•	“hamma shunday qiladi” degan stereotipdan voz kechib, ilmiy asoslangan yangiliklarni amaliyotga joriy etish;
+•	bolalarda ham tanqidiy va ijodiy fikrlashni uyg‘otish (savol berishga undash, mustaqil tahlil, o‘z fikrini himoya qilishga rag‘batlantirish).
+Tanqidiy fikrlashning asosiy komponentlari:
+•	Tahlil (ma’lumotni qismlarga ajratish, muhim va ikkinchi darajali jihatlarni farqlash);
+•	Dalillash (fikrni dalillar bilan asoslab berish);
+•	Mantiqiy xulosa (sabab–oqibatni aniqlash);
+•	Savol berish madaniyati (to‘g‘ri savol qo‘yish, “nega?”, “qanday?”, “natijasi nima?”).
+Innovatsion fikrlashning asosiy komponentlari:
+•	Kreativlik (yangicha g‘oyalarni ilgari surish);
+•	Moslashuvchan fikrlash (stereotipdan chiqish, vaziyatga qarab usulni o‘zgartira olish);
+•	Riskni baholash (yangi g‘oyaning ijobiy va salbiy tomonlarini ko‘ra bilish);
+•	Eksperiment qilishga tayyorlik (sinovdan o‘tmagan ish usullarini ehtiyotkorlik bilan sinab ko‘rish).
+Bo‘lajak tarbiyachi uchun tanqidiy va innovatsion fikrlash – bu faqat intellektual ko‘nikma emas, balki kasbiy mas’uliyat va pedagogik pozitsiya ifodasidir.
+Tanqidiy va innovatsion fikrlashga doir videolar linki
+https://youtu.be/bF6T5FCm3EE?si=XUApYQT4VzfVTc-v 
+https://youtu.be/7pAifd2X56g?si=UWrorBhcMz7VVPnh 
+https://youtu.be/rGbN9xGnsAc?si=JCqvKlxfoi4GR6Dd 
+https://youtu.be/GuaQLgNn4bQ?si=OI_p4rv2mR7QzQDH 
+https://youtu.be/JJvwrxaXeew?si=GfNX2x4mGCn66DCe 
+
+
+2-topshiriq CASE STUDY – Muammoli vaziyat (A, B, C bilan)
+Maktabgacha ta’lim tashkilotida 5–6 yoshli bolalar bilan mashg‘ulot o‘tkazilmoqda. Tarbiyachi “Ranglar uyg‘unligi” mavzusida ijodiy mashg‘ulot tashkil qilgan. Mashg‘ulot vaqtida 4 nafar bola faol ishtirok etmayotgani, materiallardan foydalanishda qiynalayotgani sezildi. Guruhda quyidagi muammolar kuzatildi:
+1.	Ikki bola ranglarni adashtiryapti, berilgan namunaga mos rang tanlay olmayapti.
+2.	Bir bola materiallar yetishmayapti deb shikoyat qiladi, boshqa bolalardan tortib oladi.
+3.	Bir bola esa mashg‘ulotga umuman qiziqmayapti, chetda o‘tirib qo‘llanmani ko‘rmoqda.
+4.	Natijada mashg‘ulotning umumiy ritmi buzilayapti, guruhdagi iqlim esa keskinlashmoqda.
+Savol:
+Tarbiyachi ushbu vaziyatda qanday tanqidiy tahlil qiladi va innovatsion yechim taklif qiladi?
+Quyidagi 3 ta yechim variantidan eng maqbulini tanlang. Elektron ilova avtomatik tekshiradi.
+A) YECHIM — Muammoni yuzaki hal qilish
+Tarbiyachi butun guruhni to‘xtatadi, muammoga sababchi bolalarni ogohlantiradi, qolganlarini faollikka chaqiradi. Mashg‘ulot rejaga muvofiq davom etadi, biroq individual yordam ko‘rsatilmaydi.
+(Bu yechim tanqidiy tahlilsiz — sababni emas, faqat oqibatni bartaraf etadi.)
+B) YECHIM — Tanqidiy tahlil + moslashuvchan strategiya
+Tarbiyachi muammoning sababini aniqlaydi:
+•	ranglarni adashtirayotgan bolalarga alohida vizual kartochkalar beradi;
+•	material yetishmasligi muammosini mini-markazlar orqali hal qiladi;
+•	qiziqmayotgan bolaga tanlov beriladi (model qurish, ranglarni aralashtirish tajribasi).
+Mashg‘ulot shaxsiy yondashuv orqali davom etadi.
+C) YECHIM — Innovatsion yondashuv (STEAM mini-loyiha)
+Tarbiyachi vaziyatdan ijodiy foydalanadi va guruhni kichik jamoalarga bo‘ladi.
+Har bir jamoa quyidagi mini-innovatsion vazifani bajaradi:
+•	“Ranglar laboratoriyasi” – yangi rang chiqarish tajribasi
+•	“Ijodiy komanda” – bitta umumiy poster yaratish
+•	“Tartib guruhi” – materiallarni taqsimlash va boshqarish
+Bolalar o‘z rollariga mos faoliyat tanlaydi. Qiziqmayotgan bola rollardan birini tanlab qo‘shiladi.
+Bu yechim bolalarda:
+•	muammoni tahlil qilish,
+•	ijodiy fikrlash,
+•	jamoaviy muloqot,
+•	mas’uliyatni bo‘lishish,
+•	innovatsion tajriba qilish ko‘nikmalarini rivojlantiradi.
+________________________________________
+✅ TO‘G‘RI JAVOB: C varianti
+Nega?
+•	Vaziyatni chuqur tanqidiy tahlil qilgan;
+•	Individual ehtiyojlar hisobga olingan;
+•	Innovatsion STEAM faoliyati orqali muammo o‘yinlashgan tarzda hal qilingan;
+•	Transversal kompetensiyalar: tanqidiy fikrlash, innovatsion fikrlash, jamoada ishlash, media-savodxonlik elementlari birlashtirilgan.
+________________________________________
+✨ Yakuniy natija (Elektron ilova ekrani uchun)
+✔ Topshiriq muvaffaqiyatli bajarildi!
+Siz tanlagan yechim transversal kompetensiyalarni rivojlantirishga mos keladi.
+3-topshiriq. Tanqidiy va innovatsion fikrlashga doir o‘yin.
+O‘yin sharti: Berilgan jumlalarga mos izohni (ta’rif bering) birlashtiring.
+Tanqidiy fikrlash — bu ma’lumot, fikr va vaziyatlarni yuzaki qabul qilmay, ularni mantiqiy tahlil qilish, fakt va fikrni farqlash, dalillar asosida baholash, sabab–oqibat aloqalarini aniqlash, bir nechta alternativ nuqtai nazardan ko‘rib chiqish va mustaqil, asosli xulosa chiqarishga qaratilgan intellektual jarayondir.
+Innovatsion fikrlash — bu mavjud vaziyat yoki muammoni odatiy ilk qarashlardan farqli tarzda baholash, yangi g‘oyalar yaratish, noodatiy yo‘nalishlarni taklif etish, jarayonlarni yaxshilash uchun kreativ, samarali, amaliy yechimlar ishlab chiqish qobiliyatidir.
+Faktlarni solishtirish – bu berilgan ma’lumotlar orasidagi o‘xshashlik va farqlarni aniqlash, ularni obyektiv mezonlar asosida taqqoslab, real holatni tushunishga yordam beruvchi tanqidiy tahlil jarayoni.
+
+Muammoni tahlil qilish – bu vaziyatning tub mohiyatini aniqlash, sabab va oqibatlarni ajratish, muammo tarkibini qismlarga bo‘lib, uning asosiy tarkibiy jihatlarini o‘rganish jarayoni.
+Mantiqiy dalillash - fikrni mantiqiy asoslar, dalillar, ishonchli faktlar va xulosalar bilan mustahkamlash; aytilgan fikrning to‘g‘riligini ob’ektiv ravishda isbotlash ko‘nikmasi.
+Vaziyatni chuqur tahlil qilish - berilgan mavzu yoki vaziyatni yuzaki emas, balki keng qamrovli, tizimli va izchil o‘rganish; yashirin sabablarni aniqlash va ularni mantiqan izohlashdan iborat jarayon.
+Yangi g‘oya taklif qilish - mavjud vaziyat yoki jarayonga noodatiy, ilg‘or, kreativ yechimlar taklif etish; muammoni yangi nuqtai nazardan ko‘ra olish qobiliyati.
+Muqobil yechim ishlab chiqish - birgina variant bilan cheklanmasdan, muammoni hal qilish uchun bir nechta turli yo‘nalishdagi yechimlar yaratish va ulardan eng samaralisini tanlay olish jarayoni.
+Ijodiy fikrlash - stereotipdan holi, erkin, noodatiy tarzda fikr yuritish; mavjud g‘oyalarni yangicha shaklga keltirish, yangilik yaratishga intilish va fikrda moslashuvchanlikni namoyon etish.
+Savollar yaratish (ijodiy savollar) - muammoni chuqurroq ochib beruvchi, fikr yuritishga undovchi, mantiqiy yoki ijodiy tahlilni boshlovchi savollarni mustaqil ravishda yaratish ko‘nikmasi.
+4-topshiriq. Diagrammalar bilan ishlash – Interaktiv drag-and-drop
+“Bilim – Ko‘nikma – Munosabat” diagrammasini to‘ldiring
+Yo‘riqnoma (ilova ekrani uchun matn):
+“Quyida tanqidiy va innovatsion fikrlashga oid tushunchalar berilgan. Ularni mos bo‘limga (BILIM, KO‘NIKMA, MUNOSABAT) drag-and-drop usulida joylashtiring.”
+Diagramma bo‘limlari:
+•	BILIM: nazariy tushunchalar, tahliliy kategoriyalar
+•	KO‘NIKMA: amaliy bajariladigan fikrlash harakatlari
+•	MUNOSABAT: ichki kayfiyat, munosabat, tayyorlik
+Joylashtiriladigan tushunchalar:
+1.	Tahlil
+2.	Muammoni ko‘ra bilish
+3.	Mantiqiy tahlil
+4.	Tanqidiy savollar berish
+5.	Dalillash
+6.	Fikrni asoslash
+7.	Kreativ yondashuv
+8.	Moslashuvchan fikrlash
+9.	Innovatsion yechimga ochiqlik
+№	Bilim	Ko‘nikma	Munosabat
+1.			
+2.			
+3.			
+4.			
+5.			
+6.			
+
+To‘g‘ri joylashtirish kaliti (o‘qituvchi uchun):
+•	BILIM:
+o	Tahlil
+o	Muammoni ko‘ra bilish
+o	Mantiqiy tahlil
+•	KO‘NIKMA:
+o	Tanqidiy savollar berish
+o	Dalillash
+o	Fikrni asoslash
+•	MUNOSABAT:
+o	Kreativ yondashuv
+o	Moslashuvchan fikrlash
+o	Innovatsion yechimga ochiqlik
+Elektron ilova noto‘g‘ri joylashtirilgan tushunchani qizil bilan, to‘g‘risini yashil bilan ko‘rsatadi va yakunda umumiy foizni chiqaradi.
+
+5-topshiriq. Modul yuzasidan test
+1. Tanqidiy fikrlash jarayonida birinchi navbatda qaysi harakat amalga oshiriladi?
+A) Muammoni qayta yodlash
+B) Ma’lumotni tahlil qilish [correct one]
+C) Tayyor xulosani qabul qilish
+D) Fikrni himoya qilish
+2. Innovatsion fikrlash qaysi vaziyatda yaqqol namoyon bo‘ladi?
+A) Odatiy pedagogik usullarni qo‘llashda davom etish
+B) Yangi g‘oyani amaliyotda sinab ko‘rish va moslashtirish [correct one]
+C) Hech qanday o‘zgarish kiritmasdan ishlash
+D) Mashg‘ulotlarni bir xil ssenariy asosida o‘tkazish
+3. Tanqidiy fikrlashning asosiy belgisini toping:
+A) Fikrni ifodalash tezligi
+B) Tahlil va solishtirish orqali xulosa chiqarish [correct one]
+C) Ko‘proq yodlash
+D) Qoidalarni eslab qolish
+4. Innovatsion yondashuv pedagogik faoliyatda qanday natija beradi?
+A) Stereotiplarni kuchaytirish
+B) Faoliyatni bir yo‘nalishda saqlab qolish
+C) Yangi metod va shakllarni qo‘llashga zamin yaratadi [correct one]
+D) O‘quv yuklamasini kamaytiradi
+5. Tanqidiy fikrlashda “savol berish”ning o‘rni qanday?
+A) Jarayonni sekinlashtiradi
+B) Muammoning tub mohiyatini ochib beradi [correct one]
+C) O‘quvchini chalg‘itadi
+D) Faqat bahslashish uchun kerak
+6. Bo‘lajak tarbiyachi innovatsion fikrlashga ega bo‘lsa, u:
+A) Yangilikni o‘rganishga ehtiyoj sezmaydi
+B) Imkon bo‘lsa yangi metodlarni sinab ko‘radi [correct one]
+C) O‘z fikrini doimiy o‘zgartirmaydi
+D) O‘quvchilardan faqat yod olishni talab qiladi
+7. Tanqidiy fikrlovchi tarbiyachi pedagogik vaziyatga qanday yondashadi?
+A) Vaziyatni yuzaki baholaydi
+B) O‘tmishdagi usullarni qo‘llashni afzal ko‘radi
+C) Voqelikni tahlil qilib, sabab-oqibatni aniqlaydi [correct one]
+D) Boshqalarning fikriga tayanadi
+8. Innovatsion fikrlashni shakllantirish uchun eng samarali sharoitni belgilang:
+A) Takroriy mashg‘ulotlar
+B) Muammoli vaziyatlar asosida ijodiy izlanish [correct one]
+C) Faqat ma’ruza tinglash
+D) Bir xil topshiriqlarni bajarish
+9. Tanqidiy va innovatsion fikrlashning umumiy jihati nimada?
+A) Ikkalasi ham yodlash ko‘nikmasini kuchaytiradi
+B) Ijodiy izlanish va tahliliy qarashlarni shakllantiradi [correct one]
+C) Mashg‘ulotlar sonini ko‘paytiradi
+D) Tayyor javoblarni yod olishga yordam beradi
+10. Bo‘lajak tarbiyachi mashg‘ulotda bolalarning tanqidiy fikrlashini shakllantirish uchun:
+A) Fikr bildirishni cheklaydi
+B) Turli savollar beradi va mustaqil tahlilga yo‘naltiradi [correct one]
+C) Faqat to‘g‘ri javobni aytishni talab qiladi
+D) Faqat yodlashga doir topshiriqlar beradi
+

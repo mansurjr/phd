@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id               String            @id @default(uuid())
+  name             String
+  results          Result[]
+  emotionResponses EmotionResponse[]
+  decisionResponses DecisionResponse[]
+  createdAt        DateTime          @default(now())
+}
+
+model Result {
+  id        Int      @id @default(autoincrement())
+  moduleId  String
+  taskId    Int
+  score     Int
+  total     Int
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+
+  @@unique([userId, moduleId, taskId])
+}
+
+model EmotionResponse {
+  id               Int      @id @default(autoincrement())
+  userId           String
+  user             User     @relation(fields: [userId], references: [id])
+  moduleId         String
+  taskId           Int
+  emotionId        String
+  reasoning        String
+  selectedTechnique String
+  createdAt        DateTime @default(now())
+
+  @@unique([userId, moduleId, taskId, emotionId])
+}
+
+model DecisionResponse {
+  id             Int      @id @default(autoincrement())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id])
+  moduleId       String
+  taskId         Int
+  scenarioId     String
+  selectedOption String
+  createdAt      DateTime @default(now())
+
+  @@unique([userId, moduleId, taskId, scenarioId])
+}
+
+model Admin {
+  id       String @id @default(uuid())
+  username String @unique
+  password String
+}
