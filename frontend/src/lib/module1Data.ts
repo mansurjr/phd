@@ -127,51 +127,7 @@ export interface Task {
       }>;
     }>;
   };
-  emotionStation?: {
-    instruction: string;
-    promptText: string;
-    globalStation?: {
-      title: string;
-      description: string;
-      purpose?: string;
-      stations: Array<{
-        id: string;
-        type: 'selection' | 'matching';
-        title: string;
-        description: string;
-        options?: Array<{
-          id: string;
-          title: string;
-          description: string[];
-          isCorrect?: boolean;
-        }>;
-        matchingItems?: Array<{
-          id: string;
-          text: string;
-          matchId: string;
-        }>;
-        matchingTargets?: Array<{
-          id: string;
-          text: string;
-        }>;
-      }>;
-    };
-    emotions?: Array<{
-      id: string;
-      title: string;
-      imageUrl: string;
-      description?: string;
-    }>;
-    techniques?: Array<{
-      id: string;
-      name: string;
-      icon?: string;
-      shortDescription: string;
-      steps: string[];
-      benefits: string[];
-      duration?: string;
-    }>;
-  };
+
   diagram?: {
     instruction: string;
     categories: Array<{
