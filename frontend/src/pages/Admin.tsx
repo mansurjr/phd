@@ -4,7 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { toast } from 'sonner';
-import { Users, LogOut, BarChart3, Search } from 'lucide-react';
+import { Users, LogOut, BarChart3, Search, Trash2 } from 'lucide-react';
+import { ConfirmDialog } from '@/components/ConfirmDialog';
 
 interface Result {
   moduleId: string;
@@ -51,6 +52,10 @@ export default function AdminPage() {
   const [users, setUsers] = useState<User[]>([]);
   const [token, setToken] = useState<string | null>(localStorage.getItem('adminToken'));
   const [searchQuery, setSearchQuery] = useState('');
+  
+  // Delete state
+  const [deleteUserId, setDeleteUserId] = useState<string | null>(null);
+  const [isConfirmOpen, setIsConfirmOpen] = useState(false);
 
   useEffect(() => {
     if (token) {
@@ -124,6 +129,34 @@ export default function AdminPage() {
       newExpanded.add(userId);
     }
     setExpandedUsers(newExpanded);
+  };
+  
+  const handleDeleteClick = (e: React.MouseEvent, userId: string) => {
+    e.stopPropagation();
+    setDeleteUserId(userId);
+    setIsConfirmOpen(true);
+  };
+
+  const handleConfirmDelete = async () => {
+    if (!deleteUserId) return;
+
+    try {
+      const res = await fetch(`http://localhost:3001/progress/user/${deleteUserId}`, {
+        method: 'DELETE',
+        headers: {
+          // 'Authorization': `Bearer ${token}` // Add when guarded
+        }
+      });
+
+      if (res.ok) {
+        setUsers(users.filter(u => u.id !== deleteUserId));
+        toast.success('Foydalanuvchi o\'chirildi');
+      } else {
+        throw new Error('Failed to delete');
+      }
+    } catch (error) {
+      toast.error('O\'chirishda xatolik yuz berdi');
+    }
   };
 
   if (!isLoggedIn) {
@@ -203,7 +236,7 @@ export default function AdminPage() {
           return (
             <Card key={user.id} className="overflow-hidden border-slate-200 shadow-sm transition-all duration-200">
               <div 
-                className="bg-white hover:bg-slate-50 cursor-pointer p-4 transition-colors flex items-center justify-between"
+                className="bg-white hover:bg-slate-50 cursor-pointer p-4 transition-colors flex items-center justify-between group"
                 onClick={() => toggleUser(user.id)}
               >
                 <div className="flex items-center gap-4">
@@ -246,10 +279,21 @@ export default function AdminPage() {
                       />
                     </div>
                   </div>
-                  <div className={`transform transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}>
-                    <svg className="h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
+                  
+                  <div className="flex items-center gap-2">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="h-8 w-8 text-slate-400 hover:text-red-600 hover:bg-red-50 opacity-0 group-hover:opacity-100 transition-all"
+                      onClick={(e) => handleDeleteClick(e, user.id)}
+                    >
+                      <Trash2 className="h-4 w-4" />
+                    </Button>
+                    <div className={`transform transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}>
+                      <svg className="h-5 w-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -361,6 +405,16 @@ export default function AdminPage() {
           </div>
         )}
       </div>
+
+      <ConfirmDialog
+        isOpen={isConfirmOpen}
+        onClose={() => setIsConfirmOpen(false)}
+        onConfirm={handleConfirmDelete}
+        title="Foydalanuvchini o'chirish"
+        message="Haqiqatan ham bu foydalanuvchini o'chirmoqchimisiz? Barcha natijalar va ma'lumotlar tiklab bo'lmas darajada o'chiriladi."
+        confirmText="O'chirish"
+        cancelText="Bekor qilish"
+      />
     </div>
   );
 }

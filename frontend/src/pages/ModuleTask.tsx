@@ -230,17 +230,17 @@ const ModuleTask = () => {
     setShowAnswer(true);
     const selected = currentTask?.caseStudy?.options.find(o => o.letter === selectedAnswer);
 
-    // Special behavior for module 2, task 2: show the caseStudy explanation below
-    // and do not show the top result banner
-    if (moduleIdNum === 2 && taskNum === 2) {
-      cardContentRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      return;
-    }
-
     if (selected) {
       const isCorrect = selected.isCorrect;
       await setTaskResult(moduleId || '1', taskNum, isCorrect ? 1 : 0, 1, userName || undefined, userId || undefined);
       
+      // Special behavior for module 2, task 2: show the caseStudy explanation below
+      // and do not show the top result banner
+      if (moduleIdNum === 2 && taskNum === 2) {
+        cardContentRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+
       if (isCorrect) {
         setResultBanner(`✅ To'g'ri javob: ${selected.title}`);
       } else {
@@ -421,6 +421,7 @@ const ModuleTask = () => {
 
   const handleCreativeSubmit = async (correct: boolean) => {
     setCreativeSubmitted(true);
+    await setTaskResult(moduleId || '1', taskNum, correct ? 1 : 0, 1, userName || undefined, userId || undefined);
     if (correct) {
       toast.success("To'g'ri javob!");
     } else {

@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module3Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Shaxsiy qobiliyatlar – Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
       "Tarbiyachi uchun shaxsiy qobiliyatlar nima?",
@@ -89,10 +89,10 @@ export const module3Data: Task[] = [
   },
   {
     number: 2,
-    title: "2-topshiriq. Shaxsiy qobiliyatlarni rivojlantirishga qaratilgan Case-study.",
+    title: "Shaxsiy qobiliyatlarni rivojlantirishga qaratilgan Case-study.",
     type: 'case-study',
     caseStudy: {
-      scenario: "“Tarbiyachi bo‘lishga tayyorlanayotgan talabaning shaxsiy qobiliyatlari sinov oldida”\n\nPedagogika yo‘nalishida tahsil olayotgan bir guruh talabalarda “Maktabgacha ta’lim jarayonini loyihalash” fanidan amaliy topshiriq berildi:\n3 kishilik guruhlarda bolalar bilan amalga oshiriladigan 20 daqiqalik mini-mashg‘ulot loyihasini ishlab chiqish.\nTalabalardan biri - Dilbar - guruh sardori etib belgilandi. U yuqori baholarga intiladigan, mas’uliyatli, lekin ba’zan hayajonga tez beriladigan talaba edi.\n\nLoyihaning amalga oshirilishi jarayonida quyidagi vaziyatlar yuzaga keldi:\n1. Guruh a’zolari fikri turlicha bo‘ldi.\nBiri o‘yin texnologiyasini qo‘llashni, boshqasi esa STEAM elementlari bilan ishlashni taklif qildi. Dilbar esa mashg‘ulotni soddaroq shaklda o‘tkazishni istardi. U fikrlar to‘qnashganida o‘z pozitsiyasini himoya qila olmadi, ichida asabiylashdi.\n2. Vaqtni boshqarishda qiyinchilik yuz berdi.\nTopshiriq topshirish muddati yaqinlashayotgan bo‘lsa-da, guruh a’zolaridan biri material tayyorlashni kechiktirdi. Guruh sardori Dilbar vaziyatni nazorat qila olmay qoldi.\n3. Prezentatsiya kuni talaba hayajon bosimi ostida qoldi.\nU doska oldiga chiqqanda qo‘li titradi, gaplari chalkashdi.\nO‘qituvchi savol berganda, javob topa olsa ham, hayajondan uni aniq ifodalay olmadi.\n4. Mashg‘ulotdan keyin talaba o‘zini ayblay boshladi.\n“Men yaxshi yetakchi bo‘la olmadim”, “Men tarbiyachi bo‘lish uchun yetarli emasman”, degan salbiy fikrlar ko‘paydi. Bu esa uning o‘z-o‘zini qadrlashi va ishonchini pasaytirdi.",
+      scenario: "“Tarbiyachi bo‘lishga tayyorlanayotgan talabaning shaxsiy qobiliyatlari sinov oldida”\n\nPedagogika yo‘nalishida tahsil olayotgan bir guruh talabalarga “Maktabgacha ta’lim jarayonini loyihalash” fanidan amaliy topshiriq berildi:\n3 kishilik guruhlarda bolalar bilan amalga oshiriladigan 20 daqiqalik mini-mashg‘ulot loyihasini ishlab chiqish.\nTalabalardan biri - Dilbar - guruh sardori etib belgilandi. U yuqori baholarga intiladigan, mas’uliyatli, lekin ba’zan hayajonga tez beriladigan talaba edi.\n\nLoyihaning amalga oshirilishi jarayonida quyidagi vaziyatlar yuzaga keldi:\n1. Guruh a’zolari fikri turlicha bo‘ldi.\nBiri o‘yin texnologiyasini qo‘llashni, boshqasi esa STEAM elementlari bilan ishlashni taklif qildi. Dilbar esa mashg‘ulotni soddaroq shaklda o‘tkazishni istardi. U fikrlar to‘qnashganida o‘z pozitsiyasini himoya qila olmadi, ichida asabiylashdi.\n2. Vaqtni boshqarishda qiyinchilik yuz berdi.\nTopshiriq topshirish muddati yaqinlashayotgan bo‘lsa-da, guruh a’zolaridan biri material tayyorlashni kechiktirdi. Guruh sardori Dilbar vaziyatni nazorat qila olmay qoldi.\n3. Prezentatsiya kuni talaba hayajon bosimi ostida qoldi.\nU doska oldiga chiqqanda qo‘li titradi, gaplari chalkashdi.\nO‘qituvchi savol berganda, javob topa olsa ham, hayajondan uni aniq ifodalay olmadi.\n4. Mashg‘ulotdan keyin talaba o‘zini ayblay boshladi.\n“Men yaxshi yetakchi bo‘la olmadim”, “Men tarbiyachi bo‘lish uchun yetarli emasman”, degan salbiy fikrlar ko‘paydi. Bu esa uning o‘z-o‘zini qadrlashi va ishonchini pasaytirdi.",
       question: "Talaba tarbiyachi bo‘lishi uchun zarur shaxsiy qobiliyatlarni qanday rivojlantirishi va ushbu vaziyatni qanday konstruktiv boshqarishi mumkin edi?",
       options: [
         {
@@ -154,7 +154,7 @@ export const module3Data: Task[] = [
   },
   {
     number: 3,
-    title: "3-topshiriq. Shaxsiy qobiliyatlarni rivojlantiruvchi interaktiv o‘yin",
+    title: "Shaxsiy qobiliyatlarni rivojlantiruvchi interaktiv o‘yin",
     type: 'emotion-station',
     emotionStation: {
       instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv\n• vaqtni rejalashtirish\n• mas’uliyat\n• qaror qabul qilish\n• o‘zini refleksiya qilish\n• ijodiy yondashuv\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
@@ -339,7 +339,7 @@ export const module3Data: Task[] = [
   },
   {
     number: 4,
-    title: "4-topshiriq. Shaxsiy qobiliyatlarni mustahkamlash",
+    title: "Shaxsiy qobiliyatlarni mustahkamlash",
     type: 'game',
     game: {
       instruction: "Berilgan atamalarni izohini jadvalga to‘g‘ri joylashtiring.",
@@ -365,9 +365,9 @@ export const module3Data: Task[] = [
         {
           question: "Qaror qabul qilish – …",
           options: [
-            { letter: "A", text: "Muammoni tahlil qilib, eng mos va asosli qarorni tanlash.", isCorrect: true },
+            { letter: "A", text: "Qat’iyat, sabr-toqat, boshlangan ishni oxiriga yetkazish qobiliyati.", isCorrect: false },
             { letter: "B", text: "Fikrni to‘g‘ri ifodalash, tinglash, boshqalar bilan hurmat asosida aloqa qilish.", isCorrect: false },
-            { letter: "C", text: "Qat’iyat, sabr-toqat, boshlangan ishni oxiriga yetkazish qobiliyati.", isCorrect: false },
+            { letter: "C", text: "Muammoni tahlil qilib, eng mos va asosli qarorni tanlash.", isCorrect: true },
             { letter: "D", text: "Ichki rag‘bat, o‘zini ilhomlantira olish, maqsad sari intilish.", isCorrect: false }
           ]
         },
@@ -375,9 +375,9 @@ export const module3Data: Task[] = [
           question: "Mas’uliyat – …",
           options: [
             { letter: "A", text: "Boshqaning holatini sezish, tushunish va unga mos hissiy javob bera olish.", isCorrect: false },
-            { letter: "B", text: "Vaqtida ish bajarish, vazifalarga jiddiy yondashish va o‘z harakatlariga javob berish.", isCorrect: true },
+            { letter: "B", text: "Salbiy, keraksiz yoki chalg‘ituvchi fikrlarni to‘xtatish va ongni ijobiy tomonga yo‘naltirish.", isCorrect: false },
             { letter: "C", text: "O‘z kuchli va zaif tomonlarini, his-tuyg‘ularini, xulq sabablarini anglay olish.", isCorrect: false },
-            { letter: "D", text: "Salbiy, keraksiz yoki chalg‘ituvchi fikrlarni to‘xtatish va ongni ijobiy tomonga yo‘naltirish.", isCorrect: false }
+            { letter: "D", text: "Vaqtida ish bajarish, vazifalarga jiddiy yondashish va o‘z harakatlariga javob berish.", isCorrect: true }
           ]
         },
         {
@@ -401,9 +401,9 @@ export const module3Data: Task[] = [
         {
           question: "O‘zini rivojlantirish – …",
           options: [
-            { letter: "A", text: "Doimiy o‘rganish, yangi ko‘nikmalarni egallash va o‘z mahoratini oshirib borish.", isCorrect: true },
-            { letter: "B", text: "Stress, bosim, murakkab vaziyatlarda o‘zini muvozanatda ushlab turish.", isCorrect: false },
-            { letter: "C", text: "Qiyin vaziyatlarda ruhiy, hissiy va jismoniy jihatdan barqaror bo‘lib qolish qobiliyati.", isCorrect: false },
+            { letter: "A", text: "Stress, bosim, murakkab vaziyatlarda o‘zini muvozanatda ushlab turish.", isCorrect: false },
+            { letter: "B", text: "Qiyin vaziyatlarda ruhiy, hissiy va jismoniy jihatdan barqaror bo‘lib qolish qobiliyati.", isCorrect: false },
+            { letter: "C", text: "Doimiy o‘rganish, yangi ko‘nikmalarni egallash va o‘z mahoratini oshirib borish.", isCorrect: true },
             { letter: "D", text: "Sharoit o‘zgarsa ham o‘z motivatsiyasini saqlab qolish, yangicha rag‘bat topa olish.", isCorrect: false }
           ]
         },
@@ -411,9 +411,9 @@ export const module3Data: Task[] = [
           question: "Muloqot madaniyati – …",
           options: [
             { letter: "A", text: "Yangi g‘oya taklif qilish, birinchi bo‘lib harakat qilish va jarayonga jonli kirishish.", isCorrect: false },
-            { letter: "B", text: "Fikrni to‘g‘ri ifodalash, tinglash, boshqalar bilan hurmat asosida aloqa qilish.", isCorrect: true },
-            { letter: "C", text: "O‘z qobiliyatlariga ishonish, vaziyatdan qo‘rqmasdan faol harakatga kirishish.", isCorrect: false },
-            { letter: "D", text: "O‘z hissiyotini anglash va boshqarish, boshqalarning hissiyotini tushunish qobiliyati.", isCorrect: false }
+            { letter: "B", text: "O‘z qobiliyatlariga ishonish, vaziyatdan qo‘rqmasdan faol harakatga kirishish.", isCorrect: false },
+            { letter: "C", text: "O‘z hissiyotini anglash va boshqarish, boshqalarning hissiyotini tushunish qobiliyati.", isCorrect: false },
+            { letter: "D", text: "Fikrni to‘g‘ri ifodalash, tinglash, boshqalar bilan hurmat asosida aloqa qilish.", isCorrect: true }
           ]
         },
         {
@@ -428,8 +428,8 @@ export const module3Data: Task[] = [
         {
           question: "Shaxsiy motivatsiya – …",
           options: [
-            { letter: "A", text: "Ichki rag‘bat, o‘zini ilhomlantira olish, maqsad sari intilish.", isCorrect: true },
-            { letter: "B", text: "Tashqaridan keladigan buyruqlar.", isCorrect: false },
+            { letter: "A", text: "Tashqaridan keladigan buyruqlar.", isCorrect: false },
+            { letter: "B", text: "Ichki rag‘bat, o‘zini ilhomlantira olish, maqsad sari intilish.", isCorrect: true },
             { letter: "C", text: "Moddiy rag‘batlantirish.", isCorrect: false },
             { letter: "D", text: "Boshqalarning yutug‘iga havas qilish.", isCorrect: false }
           ]
@@ -437,19 +437,19 @@ export const module3Data: Task[] = [
         {
           question: "Empatiya – …",
           options: [
-            { letter: "A", text: "Boshqaning holatini sezish, tushunish va unga mos hissiy javob bera olish.", isCorrect: true },
-            { letter: "B", text: "O‘z fikrini boshqalarga o‘tkazish.", isCorrect: false },
-            { letter: "C", text: "Faqat o‘z manfaatini o‘ylash.", isCorrect: false },
+            { letter: "A", text: "O‘z fikrini boshqalarga o‘tkazish.", isCorrect: false },
+            { letter: "B", text: "Faqat o‘z manfaatini o‘ylash.", isCorrect: false },
+            { letter: "C", text: "Boshqaning holatini sezish, tushunish va unga mos hissiy javob bera olish.", isCorrect: true },
             { letter: "D", text: "Atrofdagilarga befarq bo‘lish.", isCorrect: false }
           ]
         },
         {
           question: "O‘zini idrok etish (Self-awareness) – …",
           options: [
-            { letter: "A", text: "O‘z kuchli va zaif tomonlarini, his-tuyg‘ularini, xulq sabablarini anglay olish.", isCorrect: true },
-            { letter: "B", text: "Boshqalarning xatosini topish.", isCorrect: false },
-            { letter: "C", text: "O‘zini hammadan ustun qo‘yish.", isCorrect: false },
-            { letter: "D", text: "Faqat tashqi ko‘rinishga e’tibor berish.", isCorrect: false }
+            { letter: "A", text: "Boshqalarning xatosini topish.", isCorrect: false },
+            { letter: "B", text: "O‘zini hammadan ustun qo‘yish.", isCorrect: false },
+            { letter: "C", text: "Faqat tashqi ko‘rinishga e’tibor berish.", isCorrect: false },
+            { letter: "D", text: "O‘z kuchli va zaif tomonlarini, his-tuyg‘ularini, xulq sabablarini anglay olish.", isCorrect: true }
           ]
         },
         {
@@ -464,8 +464,8 @@ export const module3Data: Task[] = [
         {
           question: "Konvergent fikrlash – …",
           options: [
-            { letter: "A", text: "Muammoning yagona, aniq, eng to‘g‘ri yechimini topish qobiliyati.", isCorrect: true },
-            { letter: "B", text: "Ko‘p variantli yechimlar izlash.", isCorrect: false },
+            { letter: "A", text: "Ko‘p variantli yechimlar izlash.", isCorrect: false },
+            { letter: "B", text: "Muammoning yagona, aniq, eng to‘g‘ri yechimini topish qobiliyati.", isCorrect: true },
             { letter: "C", text: "Mantiqsiz xulosalar chiqarish.", isCorrect: false },
             { letter: "D", text: "Faqat his-tuyg‘uga tayanish.", isCorrect: false }
           ]
@@ -473,19 +473,19 @@ export const module3Data: Task[] = [
         {
           question: "Divergent fikrlash – …",
           options: [
-            { letter: "A", text: "Bitta muammo uchun ko‘plab kreativ, noodatiy g‘oyalar yaratish qobiliyati.", isCorrect: true },
-            { letter: "B", text: "Faqat an’anaviy usullardan foydalanish.", isCorrect: false },
-            { letter: "C", text: "Yagona to‘g‘ri javobni qidirish.", isCorrect: false },
+            { letter: "A", text: "Faqat an’anaviy usullardan foydalanish.", isCorrect: false },
+            { letter: "B", text: "Yagona to‘g‘ri javobni qidirish.", isCorrect: false },
+            { letter: "C", text: "Bitta muammo uchun ko‘plab kreativ, noodatiy g‘oyalar yaratish qobiliyati.", isCorrect: true },
             { letter: "D", text: "Fikrlash doirasini cheklash.", isCorrect: false }
           ]
         },
         {
           question: "O‘zini baholash – …",
           options: [
-            { letter: "A", text: "O‘z ishini adolatli, real holatda tahlil qilish va baholash qobiliyati.", isCorrect: true },
-            { letter: "B", text: "O‘zini haddan tashqari maqtoq.", isCorrect: false },
-            { letter: "C", text: "Doimiy ravishda o‘zidan norozi bo‘lish.", isCorrect: false },
-            { letter: "D", text: "Baholashni boshqalarga topshirish.", isCorrect: false }
+            { letter: "A", text: "O‘zini haddan tashqari maqtoq.", isCorrect: false },
+            { letter: "B", text: "Doimiy ravishda o‘zidan norozi bo‘lish.", isCorrect: false },
+            { letter: "C", text: "Baholashni boshqalarga topshirish.", isCorrect: false },
+            { letter: "D", text: "O‘z ishini adolatli, real holatda tahlil qilish va baholash qobiliyati.", isCorrect: true }
           ]
         },
         {
@@ -500,8 +500,8 @@ export const module3Data: Task[] = [
         {
           question: "O‘z xatti-harakatiga javobgarlik – …",
           options: [
-            { letter: "A", text: "Qilgan ish, qaror va xatti-harakatining oqibatlarini tan olish.", isCorrect: true },
-            { letter: "B", text: "Xatoni boshqalarga ag‘darish.", isCorrect: false },
+            { letter: "A", text: "Xatoni boshqalarga ag‘darish.", isCorrect: false },
+            { letter: "B", text: "Qilgan ish, qaror va xatti-harakatining oqibatlarini tan olish.", isCorrect: true },
             { letter: "C", text: "Natija bilan qiziqmaslik.", isCorrect: false },
             { letter: "D", text: "Mas’uliyatni guruhga bo‘lish.", isCorrect: false }
           ]
@@ -509,19 +509,19 @@ export const module3Data: Task[] = [
         {
           question: "Tanqidiy o‘z-tahlil – …",
           options: [
-            { letter: "A", text: "O‘z xatolarini ko‘ra olish, ulardan saboq chiqarish va takomillashishga intilish.", isCorrect: true },
-            { letter: "B", text: "Faqat yutuqlarni sanash.", isCorrect: false },
-            { letter: "C", text: "O‘zini tinimsiz jazolash.", isCorrect: false },
+            { letter: "A", text: "Faqat yutuqlarni sanash.", isCorrect: false },
+            { letter: "B", text: "O‘zini tinimsiz jazolash.", isCorrect: false },
+            { letter: "C", text: "O‘z xatolarini ko‘ra olish, ulardan saboq chiqarish va takomillashishga intilish.", isCorrect: true },
             { letter: "D", text: "Tahlilni kechiktirish.", isCorrect: false }
           ]
         },
         {
           question: "Ruhiy barqarorlik – …",
           options: [
-            { letter: "A", text: "Stress, bosim, murakkab vaziyatlarda o‘zini muvozanatda ushlab turish.", isCorrect: true },
-            { letter: "B", text: "Tezda jahl chiqishi.", isCorrect: false },
-            { letter: "C", text: "Hamma narsaga rozi bo‘lish.", isCorrect: false },
-            { letter: "D", text: "Vaziyatdan qochish.", isCorrect: false }
+            { letter: "A", text: "Tezda jahl chiqishi.", isCorrect: false },
+            { letter: "B", text: "Hamma narsaga rozi bo‘lish.", isCorrect: false },
+            { letter: "C", text: "Vaziyatdan qochish.", isCorrect: false },
+            { letter: "D", text: "Stress, bosim, murakkab vaziyatlarda o‘zini muvozanatda ushlab turish.", isCorrect: true }
           ]
         },
         {
@@ -536,8 +536,8 @@ export const module3Data: Task[] = [
         {
           question: "Motivatsion moslashuvchanlik – …",
           options: [
-            { letter: "A", text: "Sharoit o‘zgarsa ham o‘z motivatsiyasini saqlab qolish, yangicha rag‘bat topa olish.", isCorrect: true },
-            { letter: "B", text: "Maqsaddan osongina voz kechish.", isCorrect: false },
+            { letter: "A", text: "Maqsaddan osongina voz kechish.", isCorrect: false },
+            { letter: "B", text: "Sharoit o‘zgarsa ham o‘z motivatsiyasini saqlab qolish, yangicha rag‘bat topa olish.", isCorrect: true },
             { letter: "C", text: "Faqat bir xil usulda ishlash.", isCorrect: false },
             { letter: "D", text: "Motivatsiyani yo‘qotish.", isCorrect: false }
           ]
@@ -545,19 +545,19 @@ export const module3Data: Task[] = [
         {
           question: "Tashabbuskorlik – …",
           options: [
-            { letter: "A", text: "Yangi g‘oya taklif qilish, birinchi bo‘lib harakat qilish va jarayonga jonli kirishish.", isCorrect: true },
-            { letter: "B", text: "Boshqalarning harakatini kutish.", isCorrect: false },
-            { letter: "C", text: "Faqat berilgan topshiriqni bajarish.", isCorrect: false },
+            { letter: "A", text: "Boshqalarning harakatini kutish.", isCorrect: false },
+            { letter: "B", text: "Faqat berilgan topshiriqni bajarish.", isCorrect: false },
+            { letter: "C", text: "Yangi g‘oya taklif qilish, birinchi bo‘lib harakat qilish va jarayonga jonli kirishish.", isCorrect: true },
             { letter: "D", text: "Faollik ko‘rsatmaslik.", isCorrect: false }
           ]
         },
         {
           question: "O‘ziga ishonch – …",
           options: [
-            { letter: "A", text: "O‘z qobiliyatlariga ishonish, vaziyatdan qo‘rqmasdan faol harakatga kirishish.", isCorrect: true },
-            { letter: "B", text: "Doimiy ravishda ikkilanish.", isCorrect: false },
-            { letter: "C", text: "Boshqalardan yordam kutish.", isCorrect: false },
-            { letter: "D", text: "O‘z imkoniyatini yashirish.", isCorrect: false }
+            { letter: "A", text: "Doimiy ravishda ikkilanish.", isCorrect: false },
+            { letter: "B", text: "Boshqalardan yordam kutish.", isCorrect: false },
+            { letter: "C", text: "O‘z imkoniyatini yashirish.", isCorrect: false },
+            { letter: "D", text: "O‘z qobiliyatlariga ishonish, vaziyatdan qo‘rqmasdan faol harakatga kirishish.", isCorrect: true }
           ]
         }
       ]

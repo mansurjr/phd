@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module4Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Global fuqarolik kompetensiyasi – Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
       "XXI asrda dunyo iqtisodiy, siyosiy, madaniy va texnologik jihatdan o‘zaro chambarchas bog‘langan global makonga aylandi. Mazkur jarayon insondan nafaqat kasbiy tayyorgarlik, balki xalqaro maydonda mas’uliyatli ishtirok etish, madaniy xilma-xillikka hurmat bilan yondashish, global muammolarga befarq bo‘lmaslik kabi sifatlarni talab qilmoqda. Shu bois ta’lim tizimida global fuqarolik kompetensiyasini rivojlantirish zamonaviy pedagogikaning eng muhim yo‘nalishlaridan biridir.",
@@ -213,7 +213,7 @@ export const module4Data: Task[] = [
     type: 'emotion-station', 
     globalStation: {
       title: "“Global iz qoldir!” o‘yini",
-      description: "Maqsad: Talabalarda global fuqarolik kompetensiyasining asosiy komponentlari - ekologik mas’uliyat, madaniyatlararo hurmat, global ong, ijtimoiy faollikni shakllantirish.\n\nTalabalarga 4 ta “global stansiya” beriladi. Har stansiyada mini-vazifa bor. Talaba har stansiyadan o‘tib, o‘z “global iz”ini to‘playdi.",
+      description: "Maqsad:\nTalabalarda global fuqarolik kompetensiyasining asosiy komponentlari - ekologik mas’uliyat, madaniyatlararo hurmat, global ong, ijtimoiy faollikni shakllantirish.\n\nO‘yin jarayoni:\n4 ta “global stansiya” beriladi. Har stansiyada mini-vazifa bor. Talaba har stansiyadan o‘tib, o‘z “global iz”ini to‘playdi.",
       stations: [
         {
           id: 'st1',
@@ -290,7 +290,7 @@ export const module4Data: Task[] = [
               description: [
                 "Tarbiyachi bolaga keskin ohangda:",
                 "— “Noto‘g‘ri aytding, bunday demaysan!” — deb koyiydi.",
-                "Kamchiligi: bolani uyaltiradi, madaniyatlararo hurmatni pasaytiradi."
+                "Natija: bolani uyaltiradi, madaniyatlararo hurmatni pasaytiradi."
               ],
               isCorrect: false
             },
@@ -299,7 +299,7 @@ export const module4Data: Task[] = [
               title: "E’tibor bermaslik",
               description: [
                 "Tarbiyachi xato talaffuzga umuman e’tibor qilmaydi, mavzuni o‘zgartiradi.",
-                "Kamchiligi: xato mustahkamlanadi, madaniy nomlar qadri tushmaydi."
+                "Natija: xato mustahkamlanadi, madaniy nomlar qadri tushmaydi."
               ],
               isCorrect: false
             },
@@ -308,7 +308,7 @@ export const module4Data: Task[] = [
               title: "Majburlab takrorlatish",
               description: [
                 "Tarbiyachi bolaga to‘g‘ri variantni majburan bir necha marta baland ovozda ayttiradi.",
-                "Kamchiligi: psixologik noqulaylik tug‘diradi, negativ munosabat hosil qiladi."
+                "Natija: psixologik noqulaylik tug‘diradi, negativ munosabat hosil qiladi."
               ],
               isCorrect: false
             }
@@ -322,7 +322,7 @@ export const module4Data: Task[] = [
           options: [
             {
               id: 'a',
-              title: "To‘g‘ri yondashuv (Pedagogik nuqtai nazardan eng maqbul)",
+              title: "Tizimli yondashuv (Pedagogik nuqtai nazardan eng maqbul)",
               description: [
                 "Tarbiyachi bolalarga xayriya tushunchasini sodda misollarda tushuntiradi:",
                 "— “Biz boshqalarga yaxshilik qilishimiz mumkin. Masalan, eski emas, toza o‘yinchoqni sovg‘a qilamiz.”",
@@ -333,30 +333,30 @@ export const module4Data: Task[] = [
             },
             {
               id: 'b',
-              title: "Noto‘g‘ri yondashuv — Bosim o‘tkazish",
+              title: "Bosim o‘tkazish",
               description: [
                 "Tarbiyachi bolaga:",
                 "— “Hamma albatta o‘yinchoq olib keladi, kim olib kelmasa yomon!” — deya majburlaydi.",
-                "Kamchiligi: majburiylik → salbiy hissiyot, ijtimoiy mas’uliyat emas, qo‘rquv shakllanadi."
+                "Natija: majburiylik → salbiy hissiyot, ijtimoiy mas’uliyat emas, qo‘rquv shakllanadi."
               ],
               isCorrect: false
             },
             {
               id: 'c',
-              title: "Noto‘g‘ri yondashuv — Xayriyani ahamiyatsiz qilish",
+              title: "Xayriyani ahamiyatsiz qilish",
               description: [
                 "Tarbiyachi:",
                 "— “Bu shunchaki tadbir, hohlasang qatnashasan, hohlasang yo‘q,” — deya befarq munosabat bildiradi.",
-                "Kamchiligi: ijtimoiy faol pozitsiyaning shakllanishiga xalaqit beradi."
+                "Natija: ijtimoiy faol pozitsiyaning shakllanishiga xalaqit beradi."
               ],
               isCorrect: false
             },
             {
               id: 'd',
-              title: "Noto‘g‘ri yondashuv — Haddan tashqari kattalarcha izoh berish",
+              title: "Haddan tashqari kattalarcha izoh berish",
               description: [
                 "Tarbiyachi bolalarga murakkab iqtisodiy, ijtimoiy terminlar bilan tushuntiradi.",
-                "Kamchiligi: bola xayriyaning ma’nosini tushunmaydi, motivatsiya susayadi."
+                "Natija: bola xayriyaning ma’nosini tushunmaydi, motivatsiya susayadi."
               ],
               isCorrect: false
             }
@@ -368,28 +368,28 @@ export const module4Data: Task[] = [
           title: "4-stansiya: Global muammolarni anglash",
           description: "“Mahalliy muammo — global ta’sir” bo‘yicha berilgan muammolarni sabab-oqibatlarini to‘g‘ri birlashtiring.",
           matchingItems: [
-            { id: 'm5', text: "Bog‘chada qog‘ozni isrof qilish", matchId: 'tj' },
-            { id: 'm1', text: "Mahalliy plastik iste’moli oshishi", matchId: 'ta' },
-            { id: 'm8', text: "Benzindan ko‘p foydalanish (transport ko‘payishi)", matchId: 'tg' },
-            { id: 'm3', text: "Elektr isrofi", matchId: 'tc' },
-            { id: 'm10', text: "Oziq-ovqatni isrof qilish", matchId: 'ti' },
-            { id: 'm2', text: "Suvni isrof qilish", matchId: 'tb' },
-            { id: 'm7', text: "O‘yinchoqlarni yuvmasdan ishlatish", matchId: 'tf' },
-            { id: 'm4', text: "Daraxt shoxlarini sindirish", matchId: 'td' },
-            { id: 'm6', text: "Chiqindini tartibsiz tashlash", matchId: 'te' },
-            { id: 'm9', text: "Mahalliy daryo bo‘yiga chiqindi tashlash", matchId: 'th' }
+            { id: 'm1', text: "Mahalliy plastik iste’moli oshishi", matchId: 't1' },
+            { id: 'm2', text: "Suvni isrof qilish", matchId: 't2' },
+            { id: 'm3', text: "Elektr isrofi", matchId: 't3' },
+            { id: 'm4', text: "Daraxt shoxlarini sindirish", matchId: 't4' },
+            { id: 'm5', text: "Bog‘chada qog‘ozni isrof qilish", matchId: 't10' },
+            { id: 'm6', text: "Chiqindini tartibsiz tashlash", matchId: 't5' },
+            { id: 'm7', text: "O‘yinchoqlarni yuvmasdan ishlatish", matchId: 't6' },
+            { id: 'm8', text: "Benzindan ko‘p foydalanish (transport ko‘payishi)", matchId: 't7' },
+            { id: 'm9', text: "Mahalliy daryo bo‘yiga chiqindi tashlash", matchId: 't8' },
+            { id: 'm10', text: "Oziq-ovqatni isrof qilish", matchId: 't9' }
           ],
           matchingTargets: [
-            { id: 'ti', text: "oziq-ovqat resurslari tanqisligi" },
-            { id: 'tj', text: "qog‘ozga bo‘lgan talab oshib, yangi daraxtlar kesilishi" },
-            { id: 'th', text: "mahalliy ekotizim buzilishi" },
-            { id: 'tg', text: "atmosfera ifloslanishi va issiqxona gazlarining ortishi" },
-            { id: 'tf', text: "gigiyena pastligi sabab kasalliklar tarqalishi" },
-            { id: 'ta', text: "okeanlar ifloslanishi" },
-            { id: 'tb', text: "global suv tanqisligi kuchayishi" },
-            { id: 'tc', text: "iqlim o‘zgarishining tezlashishi" },
-            { id: 'td', text: "o‘rmonlarning kamayishi, havo sifatining yomonlashishi" },
-            { id: 'te', text: "dunyo bo‘yicha chiqindi inqirozi kuchayishi" }
+            { id: 't1', text: "okeanlar ifloslanishi" },
+            { id: 't2', text: "global suv tanqisligi kuchayishi" },
+            { id: 't3', text: "iqlim o‘zgarishining tezlashishi" },
+            { id: 't4', text: "o‘rmonlarning kamayishi, havo sifatining yomonlashishi" },
+            { id: 't5', text: "dunyo bo‘yicha chiqindi inqirozi kuchayishi" },
+            { id: 't6', text: "gigiyena pastligi sabab kasalliklar tarqalishi" },
+            { id: 't7', text: "atmosfera ifloslanishi va issiqxona gazlarining ortishi" },
+            { id: 't8', text: "mahalliy ekotizim buzilishi" },
+            { id: 't9', text: "oziq-ovqat resurslari tanqisligi" },
+            { id: 't10', text: "qog‘ozga bo‘lgan talab oshib, yangi daraxtlar kesilishi" }
           ]
         }
       ]
