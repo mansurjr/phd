@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module2Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Shaxslararo ko‘nikmalar – Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
       "Shaxslararo ko‘nikmalar — bu insonning boshqa odamlar bilan samarali, madaniyatli, hurmatga asoslangan muloqot qilishi, birgalikda ishlay olishi, boshqalarni tushunishi, hamkorlikni yo‘lga qo‘yishi va nizolarni konstruktiv tarzda hal qila olish qobiliyatidir.",
@@ -252,10 +252,10 @@ export const module2Data: Task[] = [
     diagram: {
       instruction: "Berilgan tushunchalarni ularga mos keluvchi shaxslararo kompetensiyalar bo'limlariga 5 tadan joylashtiring. Taqdim etilgan 6 ta yirik tarmoq shaxslararo ko'nikmalarning asosiy komponentlarini ifodalaydi.",
       categories: [
-        { id: 'muloqot', name: "MULOQOT MADANIYATI", description: "Aniq va ravon nutq, tana tili va ohangdan to‘g‘ri foydalanish", correctItems: ["aniq va ravon nutq", "tana tili va ohangdan to‘g‘ri foydalanish", "fikrni madaniyatli ifodalash", "muloqot etikasi", "professional nutq madaniyati", "“men xabarlari” texnikasi"] },
+        { id: 'muloqot', name: "MULOQOT MADANIYATI", description: "Aniq va ravon nutq, tana tili va ohangdan to‘g‘ri foydalanish", correctItems: ["aniq va ravon nutq", "tana tili va ohangdan to‘g‘ri foydalanish", "fikrni madaniyatli ifodalash", "muloqot etikasi", "professional nutq madaniyati"] },
         { id: 'tinglash', name: "FAOL TINGLASH", description: "Suhbatdoshni bo‘lmasdan tinglash, savollar berish", correctItems: ["suhbatdoshni bo‘lmasdan tinglash", "savollar berish", "eshitilgan fikrni to‘g‘ri talqin qilish", "tushunganini qayta ifodalash", "tinglash davomida muloqotga aralashmaslik"] },
         { id: 'empatiya', name: "EMPATIYA", description: "Boshqalarning his-tuyg‘ularini sezish", correctItems: ["boshqalarning his-tuyg‘ularini sezish", "vaziyatga mos emotsional javob berish", "qo‘llab-quvvatlovchi nutq", "bolalar va hamkasblarning ruhiy holatini anglash", "“agar men uning o‘rnida bo‘lsam…” qobiliyati"] },
-        { id: 'hamkorlik', name: "HAMKORLIK", description: "Jamoaviy qaror qabul qilish", correctItems: ["jamoaviy qaror qabul qilish", "vazifalarni adolatli taqsimlash", "o‘zaro yordam va ishonch", "bir maqsad sari harakat qilish", "pedagogik jamoa bilan konstruktiv aloqada bo‘lish", "jamoaviy javobgarlikni his qilish"] },
+        { id: 'hamkorlik', name: "HAMKORLIK", description: "Jamoaviy qaror qabul qilish", correctItems: ["jamoaviy qaror qabul qilish", "vazifalarni adolatli taqsimlash", "o‘zaro yordam va ishonch", "bir maqsad sari harakat qilish", "pedagogik jamoa bilan konstruktiv aloqada bo‘lish"] },
         { id: 'konflikt', name: "KONFLIKTNI BOSHQARISH", description: "Vaziyatni tahlil qilish", correctItems: ["vaziyatni tahlil qilish", "tomonlarni tinglash", "muloyim tarzda vositachilik qilish", "ziddiyatni ijobiy dialogga aylantirish", "qaror topishda adolatli bo‘lish"] },
         { id: 'madaniyat', name: "MADANIYATLARARO MULOQOT", description: "Turli madaniyatdagi insonlarni qabul qilish", correctItems: ["turli xarakterli va turli madaniyatdagi insonlarni qabul qilish", "bag‘rikenglik", "hurmatga asoslangan muloqot", "stereotipdan holi fikrlash", "madaniy moslashuvchanlik"] }
       ],
@@ -266,7 +266,6 @@ export const module2Data: Task[] = [
         "Vaziyatni tahlil qilish",
         "Boshqalarning his-tuyg‘ularini sezish",
         "Bag‘rikenglik",
-        "“men xabarlari” texnikasi",
         "Tana tili va ohangdan to‘g‘ri foydalanish",
         "O‘zaro yordam va ishonch",
         "Eshitilgan fikrni to‘g‘ri talqin qilish",
@@ -289,7 +288,6 @@ export const module2Data: Task[] = [
         "Bir maqsad sari harakat qilish",
         "Tinglash davomida muloqotga aralashmaslik",
         "Qaror topishda adolatli bo‘lish",
-        "jamoaviy javobgarlikni his qilish",
         "“agar men uning o‘rnida bo‘lsam…” qobiliyati",
         "Turli xarakterli va turli madaniyatdagi insonlarni qabul qilish"
       ]

@@ -253,6 +253,24 @@ export function GlobalStation({ data, onSubmit }: GlobalStationProps) {
         </div>
       </div>
 
+      {/* Game Introduction / Goal */}
+      {data.description && (
+        <Card className="p-6 md:p-8 bg-indigo-50/50 border-indigo-100 rounded-3xl">
+          <div className="flex items-start gap-4">
+            <div className="h-10 w-10 rounded-xl bg-indigo-100 flex items-center justify-center shrink-0">
+              <Globe className="h-6 w-6 text-indigo-600" />
+            </div>
+            <div className="space-y-4">
+              {data.description.split('\n\n').map((paragraph, idx) => (
+                <p key={idx} className="text-slate-700 leading-relaxed font-medium whitespace-pre-line">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </div>
+        </Card>
+      )}
+
       {/* Station Tabs */}
       <div className="flex flex-wrap gap-2 md:gap-3 bg-slate-100 p-1.5 md:p-2 rounded-xl md:rounded-2xl overflow-x-auto">
         {data.stations.map((s, idx) => {

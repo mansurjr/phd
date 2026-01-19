@@ -29,10 +29,10 @@ const Home = () => {
             Ta'lim Platformasi
           </div>
           
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight">
-            Kasbiy Transversal <br />
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] tracking-tight">
+            Kasbiy transversal <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-violet-400 to-indigo-300">
-              Kompetensiyalar
+              kompetensiyalarni rivojlantirish
             </span>
           </h1>
           
