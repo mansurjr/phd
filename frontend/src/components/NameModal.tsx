@@ -53,7 +53,7 @@ export function NameModal() {
 
   const checkExistingUser = async (nameToCheck: string) => {
     try {
-      const res = await fetch(`https://api.phdp.uz/progress/check/${encodeURIComponent(nameToCheck)}`);
+      const res = await fetch(`http://localhost:3001/progress/check/${encodeURIComponent(nameToCheck)}`);
       const data = await res.json();
       return data;
     } catch (error) {
@@ -153,7 +153,7 @@ export function NameModal() {
       if (!found) {
         // all modules complete -> restart (reset on backend)
         try {
-          await fetch(`https://api.phdp.uz/progress/reset/${existingUser.id}`, { method: 'POST' });
+          await fetch(`http://localhost:3001/progress/reset/${existingUser.id}`, { method: 'POST' });
         } catch (e) {
           console.error('Failed to reset progress on server', e);
         }
@@ -170,7 +170,7 @@ export function NameModal() {
       setIsLoading(true);
       try {
         // Reset progress
-        await fetch(`https://api.phdp.uz/progress/reset/${existingUser.id}`, {
+        await fetch(`http://localhost:3001/progress/reset/${existingUser.id}`, {
           method: 'POST',
         });
         

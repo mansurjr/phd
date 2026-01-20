@@ -50,7 +50,7 @@ export const useModuleStore = create<ModuleState>()(
         if (userName && userName.trim()) {
           try {
             console.log('Sending progress to backend...');
-            const response = await fetch('https://api.phdp.uz/progress/save', {
+            const response = await fetch('http://localhost:3001/progress/save', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
