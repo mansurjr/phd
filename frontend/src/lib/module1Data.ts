@@ -151,9 +151,10 @@ export interface Task {
 export const module1Data: Task[] = [
   {
     number: 1,
-    title: "Tanqidiy va innovatsion fikrlash – Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
+      "[CENTER]Tanqidiy va innovatsion fikrlash",
       "Tanqidiy fikrlash – bu ma'lumotni ko'r-ko'rona qabul qilmasdan, uni tahlil qilish, savol berish, dalillarni solishtirish, mustaqil xulosa chiqarish va qaror qabul qilish jarayonidir. Bo'lajak tarbiyachi uchun tanqidiy fikrlash mashg'ulotlarni rejalashtirishda, bolalar rivojlanishidagi muammolarni aniqlashda, har bir pedagogik vaziyatga bir nechta tomondan qaray olishda namoyon bo'ladi.",
       "Innovatsion fikrlash – mavjud muammo yoki vaziyatga yangicha, noan'anaviy, ijodiy yechim topish qobiliyatidir. Bo'lajak tarbiyachi innovatsion fikrlash orqali bolalar bilan ishlashda odatiy usullardan tashqari interfaol o'yinlar, raqamli texnologiyalar, loyiha usullarini qo'llaydi.",
       "Tanqidiy va innovatsion fikrlashning bo'lajak tarbiyachilar kasbiy transversal kompetensiyasidagi o'rni:",

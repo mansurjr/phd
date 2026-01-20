@@ -3,9 +3,10 @@ import type { Task } from './module1Data';
 export const module5Data: Task[] = [
   {
     number: 1,
-    title: "Media va axborot savodxonligi – Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
+      "[CENTER]Media va axborot savodxonligi",
       "Media va axborot savodxonligi - bu shaxsning turli axborot manbalaridan olingan ma’lumotni izlash, tahlil qilish, baholash, saralash va mas’uliyat bilan foydalanish qobiliyatini ifodalovchi zamonaviy kompetensiyadir. Mazkur kompetensiya shaxsning:",
       "• axborot oqimlarini tanqidiy qayta ishlay olishini;",
       "• yolg‘on yoki manipulyativ kontentni farqlay olishini;",

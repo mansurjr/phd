@@ -3,9 +3,10 @@ import type { Task } from './module1Data';
 export const module3Data: Task[] = [
   {
     number: 1,
-    title: "Shaxsiy qobiliyatlar – Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
+      "[CENTER]Shaxsiy qobiliyatlar",
       "Tarbiyachi uchun shaxsiy qobiliyatlar nima?",
       "Zamonaviy maktabgacha ta’lim tizimida tarbiyachining kasbiy faoliyati nafaqat metodik tayyorgarlik, balki uning shaxsiy qobiliyatlari rivojlanganlik darajasi bilan belgilanadi. Shaxsiy qobiliyatlar tarbiyachining o‘z kasbiy vazifalarini samarali bajarishi, bolalarga individual yondashishi, pedagogik jarayonda ijobiy psixologik muhit yaratishi va muammoli vaziyatlarda to‘g‘ri qaror qabul qilishi uchun asosiy omildir. Shu bois shaxsiy qobiliyatlar transversal kompetensiyalarning asosiy tarkibiy qismi sifatida qaraladi.",
       "Shaxsiy qobiliyat tushunchasi:",
@@ -283,22 +284,22 @@ export const module3Data: Task[] = [
       options: [
         {
           letter: "A",
-          text: "“Shaklni top va joylashtir” – Velcro (lipuchka) bilan didaktik kartochkalar, “Plastilin maket” – ijodiy konstruksiya mashg‘uloti, “Sensor yo‘lcha” – qum va tayoqchalar asosida nozik motorika materiali, “Magnitli syujetli hikoya” – storytelling materiali, “Rangli iplar bilan naqsh yasash” – nozik motorik o‘yin",
+          text: "“Shaklni top va joylashtir” – Velcro (lipuchka) bilan didaktik kartochkalar, “Plastilin maket” – ijodiy konstruksiya mashg‘uloti, “Sensor yo‘lcha” – qum va tayoqchalar asosida nozik motorika materiali, “Magnitli syujetli hikoya” – storytelling materiali, “Rangli iplar bilan naqsh yasash”",
           isCorrect: true
         },
         {
           letter: "B",
-          text: "“Qumdan haykal yasash” – plastilin o‘rnida qum ishlatiladi, “Ranglarni yodlash kartochkasi” – faqat bo‘yoqlar bilan ishlanadi, ip va velcro talab qilinmaydi, “Tayoqchalar bilan sonlarni ayirish” – matematik o‘yin, “Rangli kartonlardan gilamcha yasash” – amaliy vazifa emas",
+          text: "“Qumdan haykal yasash” – plastilin o‘rnida qum ishlatiladi, “Ranglarni yodlash kartochkasi” – faqat bo‘yoqlar bilan ishlanadi, ip va velcro talab qilinmaydi, “Tayoqchalar bilan sonlarni ayirish” – matematik o‘yin, “Rangli kartonlardan gilamcha yasash”",
           isCorrect: false
         },
         {
           letter: "C",
-          text: "“Qog‘ozni buklab origami hayvonlar yasash” – ip, velcro, magnit ishlatilmaydi, “Bo‘yoqlar bilan erkin rasm chizish” – transversal kompetensiyalarga bevosita mos kelmaydi, “Magnitlarni devorga yopishtirish” – o‘yin sifatida noto‘g‘ri, “Sensor qumni suvga aralashtirish” – ta’limiy maqsadga ega emas",
+          text: "“Qog‘ozni buklab origami hayvonlar yasash” – ip, velcro, magnit ishlatilmaydi, “Bo‘yoqlar bilan erkin rasm chizish” – transversal kompetensiyalarga bevosita mos kelmaydi, “Magnitlarni devorga yopishtirish” – o‘yin sifatida noto‘g‘ri, “Sensor qumni suvga aralashtirish”",
           isCorrect: false
         },
         {
           letter: "D",
-          text: "“Kartondan kema yasash” – berilgan materiallar bilan bevosita bog‘liq emas, “Plastilindan faqat harflar yasash” – cheklangan, o‘yinli jarayon emas, “Rangli ip bilan o‘yinchoq o‘rash” – didaktik maqsadga mos emas, “Velcroni devorga yopishtirib bezak qilish”",
+          text: "“Kartondan kema yasash” – berilgan materiallar bilan bevosita bog‘liq emas, “Plastilindan faqat harflar yasash” – cheklangan, o‘yinli jarayon emas, “Rangli ip bilan o‘yinchoq o‘rash”",
           isCorrect: false
         }
       ]
@@ -420,71 +421,71 @@ export const module3Data: Task[] = [
           question: "Irodaviy sifatlar – …",
           options: [
             { letter: "A", text: "Qat’iyat, sabr-toqat, boshlangan ishni oxiriga yetkazish qobiliyati.", isCorrect: true },
-            { letter: "B", text: "Vaqti-vaqti bilan o‘zini tahlil qilish.", isCorrect: false },
-            { letter: "C", text: "Boshqalar bilan muloqotga kirishish.", isCorrect: false },
-            { letter: "D", text: "Vaziyatga moslashish.", isCorrect: false }
+            { letter: "B", text: "Vaziyatdan qat’i nazar o‘zini tinch, tartibli tutish va stressni nazorat qila olish.", isCorrect: false },
+            { letter: "C", text: "Yangi g‘oya taklif qilish, birinchi bo‘lib harakat qilish va jarayonga jonli kirishish.", isCorrect: false },
+            { letter: "D", text: "Qilgan ish, qaror va xatti-harakatining oqibatlarini tan olish.", isCorrect: false }
           ]
         },
         {
           question: "Shaxsiy motivatsiya – …",
           options: [
-            { letter: "A", text: "Tashqaridan keladigan buyruqlar.", isCorrect: false },
+            { letter: "A", text: "Boshqalarning yutug‘iga havas qilish qobiliyati.", isCorrect: false },
             { letter: "B", text: "Ichki rag‘bat, o‘zini ilhomlantira olish, maqsad sari intilish.", isCorrect: true },
-            { letter: "C", text: "Moddiy rag‘batlantirish.", isCorrect: false },
-            { letter: "D", text: "Boshqalarning yutug‘iga havas qilish.", isCorrect: false }
+            { letter: "C", text: "Sharoit o‘zgarsa ham o‘z motivatsiyasini saqlab qolish.", isCorrect: false },
+            { letter: "D", text: "Doimiy o‘rganish va yangi ko‘nikmalarni egallash.", isCorrect: false }
           ]
         },
         {
           question: "Empatiya – …",
           options: [
-            { letter: "A", text: "O‘z fikrini boshqalarga o‘tkazish.", isCorrect: false },
-            { letter: "B", text: "Faqat o‘z manfaatini o‘ylash.", isCorrect: false },
+            { letter: "A", text: "O‘z kuchli va zaif tomonlarini, his-tuyg‘ularini anglay olish.", isCorrect: false },
+            { letter: "B", text: "O‘z hissiyotini anglash va boshqarish qobiliyati.", isCorrect: false },
             { letter: "C", text: "Boshqaning holatini sezish, tushunish va unga mos hissiy javob bera olish.", isCorrect: true },
-            { letter: "D", text: "Atrofdagilarga befarq bo‘lish.", isCorrect: false }
+            { letter: "D", text: "Fikrni to‘g‘ri ifodalash va boshqalar bilan aloqa qilish.", isCorrect: false }
           ]
         },
         {
           question: "O‘zini idrok etish (Self-awareness) – …",
           options: [
-            { letter: "A", text: "Boshqalarning xatosini topish.", isCorrect: false },
-            { letter: "B", text: "O‘zini hammadan ustun qo‘yish.", isCorrect: false },
-            { letter: "C", text: "Faqat tashqi ko‘rinishga e’tibor berish.", isCorrect: false },
+            { letter: "A", text: "Boshqaning holatini sezish va tushunish qobiliyati.", isCorrect: false },
+            { letter: "B", text: "O‘z ishini adolatli, real holatda baholash qobiliyati.", isCorrect: false },
+            { letter: "C", text: "O‘z faoliyati haqida o‘ylab ko‘rish va xatolarni aniqlash.", isCorrect: false },
             { letter: "D", text: "O‘z kuchli va zaif tomonlarini, his-tuyg‘ularini, xulq sabablarini anglay olish.", isCorrect: true }
           ]
         },
         {
           question: "O‘z fikrini boshqarish – …",
           options: [
-            { letter: "A", text: "Salbiy, keraksiz yoki chalg‘ituvchi fikrlarni to‘xtatish va ongni ijobiy tomonga yo‘naltiradi.", isCorrect: true },
-            { letter: "B", text: "Xayolparastlikka berilish.", isCorrect: false },
-            { letter: "C", text: "Hamma narsadan shubhalanish.", isCorrect: false },
-            { letter: "D", text: "Fikrni bir joyga jamlay olmaslik.", isCorrect: false }
+            { letter: "A", text: "Salbiy, keraksiz yoki chalg‘ituvchi fikrlarni to‘xtatish va ongni ijobiy tomonga yo‘naltirish.", isCorrect: true },
+            { letter: "B", text: "Stress, bosim va murakkab vaziyatlarda o‘zini tutib turish.", isCorrect: false },
+            { letter: "C", text: "Vaziyatdan qat’i nazar o‘zini tinch va tartibli tutish.", isCorrect: false },
+            { letter: "D", text: "Fikrni bitta nuqtaga jamlay olmaslik.", isCorrect: false }
           ]
         },
         {
           question: "Konvergent fikrlash – …",
           options: [
-            { letter: "A", text: "Ko‘p variantli yechimlar izlash.", isCorrect: false },
+            { letter: "A", text: "Bitta muammo uchun ko‘plab noodatiy g‘oyalar yaratish.", isCorrect: false },
             { letter: "B", text: "Muammoning yagona, aniq, eng to‘g‘ri yechimini topish qobiliyati.", isCorrect: true },
-            { letter: "C", text: "Mantiqsiz xulosalar chiqarish.", isCorrect: false },
-            { letter: "D", text: "Faqat his-tuyg‘uga tayanish.", isCorrect: false }
+            { letter: "C", text: "Yangi g‘oya yaratish va kreativ yondashuv ko‘rsatish.", isCorrect: false },
+            { letter: "D", text: "Muammoni tahlil qilib, eng mos qarorni tanlash.", isCorrect: false }
           ]
         },
         {
           question: "Divergent fikrlash – …",
           options: [
-            { letter: "A", text: "Faqat an’anaviy usullardan foydalanish.", isCorrect: false },
-            { letter: "B", text: "Yagona to‘g‘ri javobni qidirish.", isCorrect: false },
+            { letter: "A", text: "Faqat an’anaviy va cheklangan usullardan foydalanish.", isCorrect: false },
+            { letter: "B", text: "Yagona to‘g‘ri javobni qidirish qobiliyati.", isCorrect: false },
             { letter: "C", text: "Bitta muammo uchun ko‘plab kreativ, noodatiy g‘oyalar yaratish qobiliyati.", isCorrect: true },
-            { letter: "D", text: "Fikrlash doirasini cheklash.", isCorrect: false }
+            { letter: "D", text: "Muammoning yagona, aniq yechimini topish.", isCorrect: false }
           ]
         },
         {
           question: "O‘zini baholash – …",
           options: [
-            { letter: "A", text: "O‘zini haddan tashqari maqtoq.", isCorrect: false },
-            { letter: "B", text: "Doimiy ravishda o‘zidan norozi bo‘lish.", isCorrect: false },
-            { letter: "C", text: "Baholashni boshqalarga topshirish.", isCorrect: false },
+            { letter: "A", text: "Nimalarga qodir ekanini bilish va resurslarni hisobga olish.", isCorrect: false },
+            { letter: "B", text: "O‘z kuchli va zaif tomonlarini anglay olish.", isCorrect: false },
+            { letter: "C", text: "O‘z faoliyati haqida o‘ylab, xatolarni ko‘rib chiqish.", isCorrect: false },
             { letter: "D", text: "O‘z ishini adolatli, real holatda tahlil qilish va baholash qobiliyati.", isCorrect: true }
           ]
         },
@@ -492,35 +493,35 @@ export const module3Data: Task[] = [
           question: "O‘z imkoniyatini bilish – …",
           options: [
             { letter: "A", text: "Nimalarga qodir ekanini bilish, o‘z resurslarini to‘g‘ri hisobga olish.", isCorrect: true },
-            { letter: "B", text: "Imkoniyatidan ortiq yukni zimmaga olish.", isCorrect: false },
-            { letter: "C", text: "O‘z qobiliyatini past baholash.", isCorrect: false },
-            { letter: "D", text: "Tavakkalchilikdan butunlay qochish.", isCorrect: false }
+            { letter: "B", text: "O‘z ishini adolatli va real holatda tahlil qilish.", isCorrect: false },
+            { letter: "C", text: "O‘z kuchli va zaif tomonlarini anglay olish.", isCorrect: false },
+            { letter: "D", text: "O‘z qobiliyatlariga ishonish va faol harakatga kirishish.", isCorrect: false }
           ]
         },
         {
           question: "O‘z xatti-harakatiga javobgarlik – …",
           options: [
-            { letter: "A", text: "Xatoni boshqalarga ag‘darish.", isCorrect: false },
+            { letter: "A", text: "Vaqtida ish bajarish va vazifalarga jiddiy yondashish.", isCorrect: false },
             { letter: "B", text: "Qilgan ish, qaror va xatti-harakatining oqibatlarini tan olish.", isCorrect: true },
-            { letter: "C", text: "Natija bilan qiziqmaslik.", isCorrect: false },
-            { letter: "D", text: "Mas’uliyatni guruhga bo‘lish.", isCorrect: false }
+            { letter: "C", text: "O‘z faoliyati haqida o‘ylab ko‘rish va xatolarni aniqlash.", isCorrect: false },
+            { letter: "D", text: "O‘z xatolarini ko‘ra olish va ulardan saboq chiqarish.", isCorrect: false }
           ]
         },
         {
           question: "Tanqidiy o‘z-tahlil – …",
           options: [
-            { letter: "A", text: "Faqat yutuqlarni sanash.", isCorrect: false },
-            { letter: "B", text: "O‘zini tinimsiz jazolash.", isCorrect: false },
+            { letter: "A", text: "O‘z faoliyati haqida o‘ylab ko‘rish va xatolarni aniqlash.", isCorrect: false },
+            { letter: "B", text: "O‘z ishini adolatli va real holatda baholash qobiliyati.", isCorrect: false },
             { letter: "C", text: "O‘z xatolarini ko‘ra olish, ulardan saboq chiqarish va takomillashishga intilish.", isCorrect: true },
-            { letter: "D", text: "Tahlilni kechiktirish.", isCorrect: false }
+            { letter: "D", text: "Qilgan ish va xatti-harakatining oqibatlarini tan olish.", isCorrect: false }
           ]
         },
         {
           question: "Ruhiy barqarorlik – …",
           options: [
-            { letter: "A", text: "Tezda jahl chiqishi.", isCorrect: false },
-            { letter: "B", text: "Hamma narsaga rozi bo‘lish.", isCorrect: false },
-            { letter: "C", text: "Vaziyatdan qochish.", isCorrect: false },
+            { letter: "A", text: "Vaziyatdan qat’i nazar o‘zini tinch va tartibli tutish.", isCorrect: false },
+            { letter: "B", text: "Qiyin vaziyatlarda ruhiy va hissiy barqaror bo‘lish.", isCorrect: false },
+            { letter: "C", text: "Salbiy fikrlarni to‘xtatish va ongni ijobiyga yo‘naltirish.", isCorrect: false },
             { letter: "D", text: "Stress, bosim, murakkab vaziyatlarda o‘zini muvozanatda ushlab turish.", isCorrect: true }
           ]
         },
@@ -528,38 +529,38 @@ export const module3Data: Task[] = [
           question: "Stressga chidamlilik – …",
           options: [
             { letter: "A", text: "Qiyin vaziyatlarda ruhiy, hissiy va jismoniy jihatdan barqaror bo‘lib qolish qobiliyati.", isCorrect: true },
-            { letter: "B", text: "Stressga tushmaslikka harakat qilish.", isCorrect: false },
-            { letter: "C", text: "Vaziyatni befarq kutish.", isCorrect: false },
-            { letter: "D", text: "Tezda charchab qolish.", isCorrect: false }
+            { letter: "B", text: "Stress va bosimli vaziyatlarda o‘zini muvozanatda tutish.", isCorrect: false },
+            { letter: "C", text: "Vaziyatdan qat’i nazar o‘zini doimo tinch tutish.", isCorrect: false },
+            { letter: "D", text: "Salbiy fikrlarni to‘xtatish va ongni boshqara olish.", isCorrect: false }
           ]
         },
         {
           question: "Motivatsion moslashuvchanlik – …",
           options: [
-            { letter: "A", text: "Maqsaddan osongina voz kechish.", isCorrect: false },
+            { letter: "A", text: "Ichki rag‘bat va o‘zini doimiy ilhomlantira olish.", isCorrect: false },
             { letter: "B", text: "Sharoit o‘zgarsa ham o‘z motivatsiyasini saqlab qolish, yangicha rag‘bat topa olish.", isCorrect: true },
-            { letter: "C", text: "Faqat bir xil usulda ishlash.", isCorrect: false },
-            { letter: "D", text: "Motivatsiyani yo‘qotish.", isCorrect: false }
+            { letter: "C", text: "Yangi g‘oya taklif qilish va jarayonga jonli kirishish.", isCorrect: false },
+            { letter: "D", text: "Doimiy o‘rganish va mahoratini oshirib borish.", isCorrect: false }
           ]
         },
         {
           question: "Tashabbuskorlik – …",
           options: [
-            { letter: "A", text: "Boshqalarning harakatini kutish.", isCorrect: false },
-            { letter: "B", text: "Faqat berilgan topshiriqni bajarish.", isCorrect: false },
+            { letter: "A", text: "Yangi g‘oya yaratish va kreativ yondashuv ko‘rsatish.", isCorrect: false },
+            { letter: "B", text: "O‘z qobiliyatlariga ishonish va faol harakatga kirishish.", isCorrect: false },
             { letter: "C", text: "Yangi g‘oya taklif qilish, birinchi bo‘lib harakat qilish va jarayonga jonli kirishish.", isCorrect: true },
-            { letter: "D", text: "Faollik ko‘rsatmaslik.", isCorrect: false }
+            { letter: "D", text: "Ichki rag‘bat va maqsad sari to‘xtovsiz intilish.", isCorrect: false }
           ]
         },
         {
           question: "O‘ziga ishonch – …",
           options: [
-            { letter: "A", text: "Doimiy ravishda ikkilanish.", isCorrect: false },
-            { letter: "B", text: "Boshqalardan yordam kutish.", isCorrect: false },
-            { letter: "C", text: "O‘z imkoniyatini yashirish.", isCorrect: false },
+            { letter: "A", text: "O‘z kuchli va zaif tomonlarini, his-tuyg‘ularini anglash.", isCorrect: false },
+            { letter: "B", text: "Nimalarga qodir ekanini bilish va resurslarni hisobga olish.", isCorrect: false },
+            { letter: "C", text: "Yangi g‘oya taklif qilish va birinchi bo‘lib harakat qilish.", isCorrect: false },
             { letter: "D", text: "O‘z qobiliyatlariga ishonish, vaziyatdan qo‘rqmasdan faol harakatga kirishish.", isCorrect: true }
           ]
-        }
+        },
       ]
     }
   },

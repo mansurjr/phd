@@ -479,6 +479,16 @@ const ModuleTask = () => {
                 const prevIsHeader = arr[idx - 1]?.trim().endsWith(':') || arr[idx - 1]?.trim().endsWith('?');
                 const followedByBullet = arr[idx + 1]?.trim().startsWith('•') || arr[idx + 1]?.trim().startsWith('◦');
                 
+                const isCentered = line.trim().startsWith('[CENTER]');
+
+                if (isCentered) {
+                  return (
+                    <p key={idx} className="text-center text-xl md:text-2xl font-black text-indigo-900 bg-gradient-to-r from-indigo-50/50 via-indigo-50 to-indigo-50/50 py-6 px-8 rounded-3xl border-2 border-indigo-100 mb-8 mt-4 shadow-sm animate-in fade-in zoom-in-95 duration-700 break-words">
+                      {line.trim().slice(8).trim()}
+                    </p>
+                  );
+                }
+
                 const iconLine = renderLineWithIcons(line);
 
                 if (iconLine) return <div key={idx}>{iconLine}</div>;

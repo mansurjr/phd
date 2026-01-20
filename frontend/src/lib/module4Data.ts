@@ -3,9 +3,10 @@ import type { Task } from './module1Data';
 export const module4Data: Task[] = [
   {
     number: 1,
-    title: "Global fuqarolik kompetensiyasi – Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
+      "[CENTER]🌍 Global fuqarolik kompetensiyasi - bo‘lajak tarbiyachi uchun nima uchun zarur?",
       "XXI asrda dunyo iqtisodiy, siyosiy, madaniy va texnologik jihatdan o‘zaro chambarchas bog‘langan global makonga aylandi. Mazkur jarayon insondan nafaqat kasbiy tayyorgarlik, balki xalqaro maydonda mas’uliyatli ishtirok etish, madaniy xilma-xillikka hurmat bilan yondashish, global muammolarga befarq bo‘lmaslik kabi sifatlarni talab qilmoqda. Shu bois ta’lim tizimida global fuqarolik kompetensiyasini rivojlantirish zamonaviy pedagogikaning eng muhim yo‘nalishlaridan biridir.",
       "UNESCO, OECD, UNICEF kabi xalqaro tashkilotlar global fuqarolikni XXI asr kompetensiyalarining markazida turuvchi yadro kompetensiya sifatida belgilagan.",
       
@@ -82,7 +83,7 @@ export const module4Data: Task[] = [
       "• tinchlik va hamjihatlik tarafdori.",
       "Global fuqarolik kompetensiyasi — zamonaviy ta’limning ajralmas qismi bo‘lib, shaxsni nafaqat milliy, balki xalqaro miqyosda ham mas’uliyatli, ongli, faol fuqaroga aylantiradi. Bu kompetensiya talabalarda barqaror rivojlanish, insonparvarlik, madaniy bag‘rikenglik va global mas’uliyat tamoyillarini shakllantirib, ularni XXI asr talablari bilan uyg‘un holda voyaga yetkazadi.",
       
-      "🌍 Global fuqarolik kompetensiyasi - bo‘lajak tarbiyachi uchun nima uchun zarur",
+      "🌍 Global fuqarolik kompetensiyasi - bo‘lajak tarbiyachi uchun nima uchun zarur?",
       "Bo‘lajak tarbiyachi kelajak avlodni tarbiyalaydi. U faqat bilim beruvchi emas, balki bolalarning dunyoqarashi, qadriyati, ijtimoiy xulqi va madaniy pozitsiyasini shakllantiruvchi asosiy shaxsdir. Shu sababli global fuqarolik kompetensiyasi zamonaviy tarbiyachi uchun majburiy professional sifatga aylandi.",
       "Quyida bo‘lajak tarbiyachi uchun nima uchun aynan shu kompetensiya zarurligi chuqur asoslangan holda bayon qilinadi:",
       

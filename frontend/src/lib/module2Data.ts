@@ -3,9 +3,10 @@ import type { Task } from './module1Data';
 export const module2Data: Task[] = [
   {
     number: 1,
-    title: "Shaxslararo ko‘nikmalar – Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
+      "[CENTER]Shaxslararo ko‘nikmalar",
       "Shaxslararo ko‘nikmalar — bu insonning boshqa odamlar bilan samarali, madaniyatli, hurmatga asoslangan muloqot qilishi, birgalikda ishlay olishi, boshqalarni tushunishi, hamkorlikni yo‘lga qo‘yishi va nizolarni konstruktiv tarzda hal qila olish qobiliyatidir.",
       "Pedagogik talqinda shaxslararo ko‘nikmalar bo‘lajak tarbiyachining bolalar, ota-onalar, hamkasblar va jamoa bilan faol, ijobiy, samimiy va professional aloqani o‘rnata olish ko‘nikmalarini anglatadi.",
       "Bu kompetensiya turli pedagogik vaziyatlarda o‘zini namoyon qiladi:",
