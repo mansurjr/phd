@@ -80,6 +80,16 @@ export class ProgressService {
       where: { userId: userId },
     });
 
+    // Delete all emotion responses
+    await this.prisma.emotionResponse.deleteMany({
+      where: { userId: userId },
+    });
+
+    // Delete all decision responses
+    await this.prisma.decisionResponse.deleteMany({
+      where: { userId: userId },
+    });
+
     // Then delete the user
     return this.prisma.user.delete({
       where: { id: userId },
