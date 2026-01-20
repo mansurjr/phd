@@ -356,7 +356,7 @@ const ModuleTask = () => {
     
     // Save emotion responses to backend
     try {
-      await fetch('http://localhost:3001/progress/emotion-save', {
+      await fetch('https://api.mutallib.uz/progress/emotion-save', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -386,7 +386,7 @@ const ModuleTask = () => {
              selectedOption: selectedValue
          }));
 
-         await fetch('http://localhost:3001/progress/decision-save', {
+         await fetch('https://api.mutallib.uz/progress/decision-save', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
