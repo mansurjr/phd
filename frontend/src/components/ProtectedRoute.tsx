@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect, type JSX } from 'react';
 import { Navigate } from 'react-router-dom';
 import { useUserStore } from '@/store/userStore';
 import { toast } from 'sonner';
