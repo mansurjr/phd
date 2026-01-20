@@ -6,7 +6,7 @@ export const module4Data: Task[] = [
     title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
-      "[CENTER]🌍 Global fuqarolik kompetensiyasi - bo‘lajak tarbiyachi uchun nima uchun zarur?",
+      "[CENTER]🌍 Global fuqarolik kompetensiyasi",
       "XXI asrda dunyo iqtisodiy, siyosiy, madaniy va texnologik jihatdan o‘zaro chambarchas bog‘langan global makonga aylandi. Mazkur jarayon insondan nafaqat kasbiy tayyorgarlik, balki xalqaro maydonda mas’uliyatli ishtirok etish, madaniy xilma-xillikka hurmat bilan yondashish, global muammolarga befarq bo‘lmaslik kabi sifatlarni talab qilmoqda. Shu bois ta’lim tizimida global fuqarolik kompetensiyasini rivojlantirish zamonaviy pedagogikaning eng muhim yo‘nalishlaridan biridir.",
       "UNESCO, OECD, UNICEF kabi xalqaro tashkilotlar global fuqarolikni XXI asr kompetensiyalarining markazida turuvchi yadro kompetensiya sifatida belgilagan.",
       

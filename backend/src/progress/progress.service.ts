@@ -67,8 +67,6 @@ export class ProgressService {
       } : {},
       include: {
         results: true,
-        emotionResponses: true,
-        decisionResponses: true,
       },
       orderBy: {
         createdAt: 'desc',
@@ -77,17 +75,14 @@ export class ProgressService {
   }
 
   async deleteUser(userId: string) {
-    console.log(`Deleting user ${userId} and all related data...`);
-    return this.prisma.$transaction(async (tx) => {
-      // Delete all related data first
-      await tx.result.deleteMany({ where: { userId } });
-      await tx.emotionResponse.deleteMany({ where: { userId } });
-      await tx.decisionResponse.deleteMany({ where: { userId } });
-      
-      // Finally delete the user
-      return tx.user.delete({
-        where: { id: userId },
-      });
+    // First delete all results for this user
+    await this.prisma.result.deleteMany({
+      where: { userId: userId },
+    });
+
+    // Then delete the user
+    return this.prisma.user.delete({
+      where: { id: userId },
     });
   }
 

@@ -158,7 +158,7 @@ export const module3Data: Task[] = [
     title: "Shaxsiy qobiliyatlarni rivojlantiruvchi interaktiv o‘yin",
     type: 'emotion-station',
     emotionStation: {
-      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv\n• vaqtni rejalashtirish\n• mas’uliyat\n• qaror qabul qilish\n• o‘zini refleksiya qilish\n• ijodiy yondashuv\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
+      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv;\n• vaqtni rejalashtirish;\n• mas’uliyat;\n• qaror qabul qilish;\n• o‘zini refleksiya qilish;\n• ijodiy yondashuv;\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
       promptText: "Nima sababdan o'zingizni shunday his qilayotganingiz haqida 1 jumla yozing",
       emotions: [
         {
@@ -289,17 +289,17 @@ export const module3Data: Task[] = [
         },
         {
           letter: "B",
-          text: "“Qumdan haykal yasash” – plastilin o‘rnida qum ishlatiladi, “Ranglarni yodlash kartochkasi” – faqat bo‘yoqlar bilan ishlanadi, ip va velcro talab qilinmaydi, “Tayoqchalar bilan sonlarni ayirish” – matematik o‘yin, “Rangli kartonlardan gilamcha yasash”",
+          text: "“Qumdan haykal yasash”, “Ranglarni yodlash kartochkasi”, “Tayoqchalar bilan sonlarni ayirish”, “Rangli kartonlardan gilamcha yasash”",
           isCorrect: false
         },
         {
           letter: "C",
-          text: "“Qog‘ozni buklab origami hayvonlar yasash” – ip, velcro, magnit ishlatilmaydi, “Bo‘yoqlar bilan erkin rasm chizish” – transversal kompetensiyalarga bevosita mos kelmaydi, “Magnitlarni devorga yopishtirish” – o‘yin sifatida noto‘g‘ri, “Sensor qumni suvga aralashtirish”",
+          text: "“Qog‘ozni buklab origami hayvonlar yasash”, “Bo‘yoqlar bilan erkin rasm chizish”, “Magnitlarni devorga yopishtirish”, “Sensor qumni suvga aralashtirish”",
           isCorrect: false
         },
         {
           letter: "D",
-          text: "“Kartondan kema yasash” – berilgan materiallar bilan bevosita bog‘liq emas, “Plastilindan faqat harflar yasash” – cheklangan, o‘yinli jarayon emas, “Rangli ip bilan o‘yinchoq o‘rash”",
+          text: "“Kartondan kema yasash”, “Plastilindan faqat harflar yasash”, “Rangli ip bilan o‘yinchoq o‘rash”",
           isCorrect: false
         }
       ]
