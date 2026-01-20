@@ -104,7 +104,7 @@ export const module5Data: Task[] = [
     title: "Interaktiv o‘yin: So‘zni to‘ldiring",
     type: 'emotion-station',
     globalStation: {
-      title: "“Bilimdon tarbiyachi” o‘yini",
+      title: "",
       description: "Quyida berilgan media va axborot savodxonligiga doir atamalarni ularga mos so‘zlar bilan birlashtiring.",
       stations: [
         {
