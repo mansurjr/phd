@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module3Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing.",
     type: 'content',
     content: [
       "[CENTER]Shaxsiy qobiliyatlar",
@@ -158,7 +158,7 @@ export const module3Data: Task[] = [
     title: "Shaxsiy qobiliyatlarni rivojlantiruvchi interaktiv o‘yin",
     type: 'emotion-station',
     emotionStation: {
-      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv;\n• vaqtni rejalashtirish;\n• mas’uliyat;\n• qaror qabul qilish;\n• o‘zini refleksiya qilish;\n• ijodiy yondashuv;\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
+      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv;\n• vaqtni rejalashtirish;\n• mas’uliyat;\n• qaror qabul qilish;\n• o‘zini refleksiya qilish;\n• ijodiy yondashuv.\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi.",
       promptText: "Nima sababdan o'zingizni shunday his qilayotganingiz haqida 1 jumla yozing",
       emotions: [
         {

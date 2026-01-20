@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module5Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing.",
     type: 'content',
     content: [
       "[CENTER]Media va axborot savodxonligi",
