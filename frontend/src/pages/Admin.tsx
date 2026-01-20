@@ -74,7 +74,7 @@ export default function AdminPage() {
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await fetch('https://api.mutallib.uz/admin/login', {
+      const res = await fetch('https://api.phdp.uz/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, pass: password }),
@@ -96,8 +96,8 @@ export default function AdminPage() {
   const fetchUsers = async (search?: string) => {
     try {
       const url = search 
-        ? `https://api.mutallib.uz/progress/all?search=${encodeURIComponent(search)}`
-        : 'https://api.mutallib.uz/progress/all';
+        ? `https://api.phdp.uz/progress/all?search=${encodeURIComponent(search)}`
+        : 'https://api.phdp.uz/progress/all';
         
       const res = await fetch(url, {
         headers: {
@@ -141,7 +141,7 @@ export default function AdminPage() {
     if (!deleteUserId) return;
 
     try {
-      const res = await fetch(`https://api.mutallib.uz/progress/user/${deleteUserId}`, {
+      const res = await fetch(`https://api.phdp.uz/progress/user/${deleteUserId}`, {
         method: 'DELETE',
         headers: {
           // 'Authorization': `Bearer ${token}` // Add when guarded
