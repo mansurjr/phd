@@ -483,7 +483,7 @@ const ModuleTask = () => {
 
                 if (isCentered) {
                   return (
-                    <p key={idx} className="text-center text-xl md:text-2xl font-black text-indigo-900 bg-gradient-to-r from-indigo-50/50 via-indigo-50 to-indigo-50/50 py-6 px-8 rounded-3xl border-2 border-indigo-100 mb-8 mt-4 shadow-sm animate-in fade-in zoom-in-95 duration-700 break-words">
+                    <p key={idx} className="text-center text-xl md:text-2xl font-black text-indigo-900 bg-linear-to-r from-indigo-50/50 via-indigo-50 to-indigo-50/50 py-6 px-8 rounded-3xl border-2 border-indigo-100 mb-8 mt-4 shadow-sm animate-in fade-in zoom-in-95 duration-700 wrap-break-word">
                       {line.trim().slice(8).trim()}
                     </p>
                   );
@@ -705,7 +705,7 @@ const ModuleTask = () => {
                                           }
                                         }
                                       }}
-                                      className={`inline-flex items-center justify-center min-w-[140px] md:min-w-[180px] mx-1 md:mx-2 px-3 py-1 rounded-xl border-2 border-dashed transition-all duration-300 ${
+                                      className={`inline-flex items-center justify-center min-w-35 md:min-w-45 mx-1 md:mx-2 px-3 py-1 rounded-xl border-2 border-dashed transition-all duration-300 ${
                                         selectedOptionValue 
                                           ? gameSubmitted
                                             ? isCorrect
@@ -1173,7 +1173,7 @@ const ModuleTask = () => {
             return (
               <div className="space-y-6">
                 {hasMainTitle && (
-                  <p className="text-center text-xl md:text-2xl font-black text-indigo-900 bg-gradient-to-r from-indigo-50/50 via-indigo-50 to-indigo-50/50 py-6 px-8 rounded-3xl border-2 border-indigo-100 mb-2 shadow-sm">
+                  <p className="text-center text-xl md:text-2xl font-black text-indigo-900 bg-linear-to-r from-indigo-50/50 via-indigo-50 to-indigo-50/50 py-6 px-8 rounded-3xl border-2 border-indigo-100 mb-2 shadow-sm">
                     {firstLine}
                   </p>
                 )}

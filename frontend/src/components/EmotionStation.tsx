@@ -348,12 +348,35 @@ export function EmotionStation({
         <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-2">Emotsional Boshqarish Stansiyasi</h2>
-            {instruction && <p className="text-gray-600 text-sm mb-4">{instruction}</p>}
+            {instruction && (
+              <div className="bg-white border text-left border-indigo-100 rounded-2xl p-6 shadow-sm mb-8 relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-8 bg-indigo-50 rounded-bl-full opacity-50"></div>
+                <div className="relative z-10">
+                  <h3 className="text-indigo-900 font-bold mb-4 flex items-center gap-2">
+                    <span className="p-2 bg-indigo-100 rounded-lg">
+                      <Brain className="w-5 h-5 text-indigo-600" />
+                    </span>
+                    Yo'riqnoma
+                  </h3>
+                  <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base">
+                    {instruction.split('\n\n').map((paragraph, idx) => (
+                      <div key={idx} className="whitespace-pre-line">
+                        {paragraph.startsWith('🎯') || paragraph.startsWith('O‘yin nomi:') || paragraph.includes('stansiya:') ? (
+                          <strong className="block text-slate-800 mb-1">{paragraph}</strong>
+                        ) : (
+                          paragraph
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
 
           {!selectedEmotion ? (
             <div className="mb-8">
-              <h3 className="text-lg font-semibold mb-4 text-slate-700">Quyidagi emotsiyalardan hozirgi holatingizga mosini tanlang</h3>
+              <h3 className="text-lg font-semibold mb-4 text-slate-700">Quyidagi emotsiyalardan hozirgi holatingizga mosini tanlang.</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {emotions.map((emotion) => (
                   <button

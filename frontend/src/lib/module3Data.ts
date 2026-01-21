@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module3Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing.",
     type: 'content',
     content: [
       "[CENTER]Shaxsiy qobiliyatlar",
@@ -158,7 +158,7 @@ export const module3Data: Task[] = [
     title: "Ijodiy quticha",
     type: 'emotion-station',
     emotionStation: {
-      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv\n• vaqtni rejalashtirish\n• mas’uliyat\n• qaror qabul qilish\n• o‘zini refleksiya qilish\n• ijodiy yondashuv\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
+      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv;\n• vaqtni rejalashtirish;\n• mas’uliyat;\n• qaror qabul qilish;\n• o‘zini refleksiya qilish;\n• ijodiy yondashuv.\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi.",
       promptText: "Nima sababdan o'zingizni shunday his qilayotganingiz haqida 1 jumla yozing",
       emotions: [
         {
@@ -289,17 +289,29 @@ export const module3Data: Task[] = [
         },
         {
           letter: "B",
+<<<<<<< HEAD
           text: "“Qumdan haykallar” – faqat sensor qum ishlatiladi, “Ranglarni o'rganish” – faqat bo‘yoqlar bilan chegaralanadi, ota-onalar ishtirokisiz oddiy rasm chizish, “Matematik tayoqchalar” – ota-onalar ishtirokisiz individual vazifa, “Rangli kartonli kesmalar”.",
+=======
+          text: "“Qumdan haykal yasash”, “Ranglarni yodlash kartochkasi”, “Tayoqchalar bilan sonlarni ayirish”, “Rangli kartonlardan gilamcha yasash”",
+>>>>>>> ba16168bc090af8555492f5a861d8f7167fbe4d0
           isCorrect: false
         },
         {
           letter: "C",
+<<<<<<< HEAD
           text: "“Origami dunyosi” – faqat qog‘oz ishlatiladi, ip va magnitlar chetda qoladi, “Erkin rasm chizish” – transversal kompetensiyalarga mos kelmaydi, “Magnitlarni devorga yopishtirish” – ota-onalar uchun qiziqarsiz va pedagogik bo'lmagan jarayon, “Sensor qumni aralashtirish”.",
+=======
+          text: "“Qog‘ozni buklab origami hayvonlar yasash”, “Bo‘yoqlar bilan erkin rasm chizish”, “Magnitlarni devorga yopishtirish”, “Sensor qumni suvga aralashtirish”",
+>>>>>>> ba16168bc090af8555492f5a861d8f7167fbe4d0
           isCorrect: false
         },
         {
           letter: "D",
+<<<<<<< HEAD
           text: "“Kartondan kema yasash” – faqat bir xil materialdan foydalaniladi, “Plastilindan harflar yasash” – ijodiy bo'lmagan va ota-onalar ishtirokini nazarda tutmagan cheklangan jarayon, “Rangli ip bilan oddiy o'rash”.",
+=======
+          text: "“Kartondan kema yasash”, “Plastilindan faqat harflar yasash”, “Rangli ip bilan o‘yinchoq o‘rash”",
+>>>>>>> ba16168bc090af8555492f5a861d8f7167fbe4d0
           isCorrect: false
         }
       ]

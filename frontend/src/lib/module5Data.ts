@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module5Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing.",
     type: 'content',
     content: [
       "[CENTER]Media va axborot savodxonligi",
@@ -104,7 +104,7 @@ export const module5Data: Task[] = [
     title: "Interaktiv o‘yin: So‘zni to‘ldiring",
     type: 'emotion-station',
     globalStation: {
-      title: "“Bilimdon tarbiyachi” o‘yini",
+      title: "",
       description: "Quyida berilgan media va axborot savodxonligiga doir atamalarni ularga mos so‘zlar bilan birlashtiring.",
       stations: [
         {

@@ -151,7 +151,7 @@ export interface Task {
 export const module1Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing",
+    title: "Matnni o‘qib o‘rganing.",
     type: 'content',
     content: [
       "[CENTER]Tanqidiy va innovatsion fikrlash",
