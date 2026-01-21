@@ -155,7 +155,7 @@ export const module3Data: Task[] = [
   },
   {
     number: 3,
-    title: "Shaxsiy qobiliyatlarni rivojlantiruvchi interaktiv o‘yin",
+    title: "Ijodiy quticha",
     type: 'emotion-station',
     emotionStation: {
       instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv\n• vaqtni rejalashtirish\n• mas’uliyat\n• qaror qabul qilish\n• o‘zini refleksiya qilish\n• ijodiy yondashuv\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
@@ -265,41 +265,41 @@ export const module3Data: Task[] = [
     },
     creativeStation: {
       title: "🔵 3-stansiya: “Ijodiy quticha”",
-      description: "Rivojlanadigan qobiliyat:\nIjodiy fikrlash, moslashuvchanlik, tashabbuskorlik.\n\nVazifa:\nQuyidagi “Ijodiy quticha”da kasbiy faoliyatingizda zarur bo‘lgan predmetlar bor. Talabalarga qutidan chiqarilgan 10 ta tasodifiy predmet: rangli karton, plastilin to‘plami, ip, rangli bo‘yoqlar, magnitli stikerlar, velcro yopishtirgich, rangli tayoqchalar, pastel bo‘yoqlar, sensor qum, shtamplar rasmlari ekranga chiqariladi. Siz ulardan foydalanib o‘z mashg‘ulotingiz, pedagogik jarayonlaringizda foydalanish uchun material tayyorlashingiz kerak.",
+      description: "Rivojlanadigan qobiliyat: Ijodiy fikrlash, moslashuvchanlik, tashabbuskorlik. Vazifa: Quyidagi “Ijodiy quticha”da kasbiy faoliyatingizda zarur bo‘lgan predmetlar bor. ",
       headerImageUrl: "/box.jpg",
       imageUrl: "/staffs.png",
       items: [
-        "rangli karton",
-        "plastilin to‘plami",
-        "ip",
-        "rangli bo‘yoqlar",
-        "magnitli stikerlar",
-        "velcro yopishtirgich",
-        "rangli tayoqchalar",
-        "pastel bo‘yoqlar",
-        "sensor qum",
-        "shtamplar rasmlari"
+        "🎨 Rangli karton",
+        "🧸 Plastilin to‘plami",
+        "🧵 Ip",
+        "🖌 Rangli bo‘yoqlar",
+        "🧲 Magnitli stikerlar",
+        "📎 Velcro yopishtirgich",
+        "🥢 Rangli tayoqchalar",
+        "🖍 Pastel bo‘yoqlar",
+        "⏳ Sensor qum",
+        "🖼 Shtamplar rasmlari"
       ],
-      question: "Kasbiy transversal kompetensiyalaringizdan kelib chiqib siz quyidagi materiallardan foydalanib, mashg‘ulotingiz, pedagogik jarayoningizga, o‘yin jarayonlariga kerak bo‘lgan qanday materiallar tayyorlash mumkin deb o‘ylaysiz. Berilgan variantlardan to‘g‘ri javobni aniqlang.",
+      question: "Sizlarga qutidan chiqarilgan quyidagi 10 ta tasodifiy predmetlardan foydalanib o‘z mashg‘ulotingiz, pedagogik jarayonlaringizda foydalanish uchun material tayyorlashingiz kerak.",
       options: [
         {
           letter: "A",
-          text: "“Shaklni top va joylashtir” – Velcro (lipuchka) bilan didaktik kartochkalar, “Plastilin maket” – ijodiy konstruksiya mashg‘uloti, “Sensor yo‘lcha” – qum va tayoqchalar asosida nozik motorika materiali, “Magnitli syujetli hikoya” – storytelling materiali, “Rangli iplar bilan naqsh yasash”",
+          text: "“Sehrli dunyo” – Velcro (lipuchka) yordamida ota-onalar bilan birga didaktik kartochkalar yasash, “Plastilinli mo'jiza” – oilaviy jamoaviy konstruksiya, “Sensorli yo'lak” – qum va tayoqchalardan motorika uchun foydalanish, “Hikoyachi magnitlar” – ota-onalar tomonidan aytib beriladigan magnetik hikoya, “Rangli iplar san'ati” – nozik motorikani rivojlantiruvchi to'quv o'yini.",
           isCorrect: true
         },
         {
           letter: "B",
-          text: "“Qumdan haykal yasash” – plastilin o‘rnida qum ishlatiladi, “Ranglarni yodlash kartochkasi” – faqat bo‘yoqlar bilan ishlanadi, ip va velcro talab qilinmaydi, “Tayoqchalar bilan sonlarni ayirish” – matematik o‘yin, “Rangli kartonlardan gilamcha yasash”",
+          text: "“Qumdan haykallar” – faqat sensor qum ishlatiladi, “Ranglarni o'rganish” – faqat bo‘yoqlar bilan chegaralanadi, ota-onalar ishtirokisiz oddiy rasm chizish, “Matematik tayoqchalar” – ota-onalar ishtirokisiz individual vazifa, “Rangli kartonli kesmalar”.",
           isCorrect: false
         },
         {
           letter: "C",
-          text: "“Qog‘ozni buklab origami hayvonlar yasash” – ip, velcro, magnit ishlatilmaydi, “Bo‘yoqlar bilan erkin rasm chizish” – transversal kompetensiyalarga bevosita mos kelmaydi, “Magnitlarni devorga yopishtirish” – o‘yin sifatida noto‘g‘ri, “Sensor qumni suvga aralashtirish”",
+          text: "“Origami dunyosi” – faqat qog‘oz ishlatiladi, ip va magnitlar chetda qoladi, “Erkin rasm chizish” – transversal kompetensiyalarga mos kelmaydi, “Magnitlarni devorga yopishtirish” – ota-onalar uchun qiziqarsiz va pedagogik bo'lmagan jarayon, “Sensor qumni aralashtirish”.",
           isCorrect: false
         },
         {
           letter: "D",
-          text: "“Kartondan kema yasash” – berilgan materiallar bilan bevosita bog‘liq emas, “Plastilindan faqat harflar yasash” – cheklangan, o‘yinli jarayon emas, “Rangli ip bilan o‘yinchoq o‘rash”",
+          text: "“Kartondan kema yasash” – faqat bir xil materialdan foydalaniladi, “Plastilindan harflar yasash” – ijodiy bo'lmagan va ota-onalar ishtirokini nazarda tutmagan cheklangan jarayon, “Rangli ip bilan oddiy o'rash”.",
           isCorrect: false
         }
       ]

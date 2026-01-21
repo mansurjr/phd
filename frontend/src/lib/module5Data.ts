@@ -285,7 +285,7 @@ export const module5Data: Task[] = [
         question: "Raqamli xavfsizlikning asosiy maqsadi nima?",
         options: [
           { letter: 'A', text: "Internetda ko‘proq vaqt o‘tkazish", isCorrect: false },
-          { letter: 'B', text: "Faqat foydalanuvchi ma’lumotlarini himoyalash", isCorrect: true },
+          { letter: 'B', text: "Foydalanuvchi ma’lumotlarini himoyalash", isCorrect: true },
           { letter: 'C', text: "Rasmga filtr qo‘shish", isCorrect: false },
           { letter: 'D', text: "Ilovalarni tezroq yuklash", isCorrect: false }
         ]

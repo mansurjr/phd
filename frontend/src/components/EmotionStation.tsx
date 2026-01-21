@@ -310,7 +310,7 @@ export function EmotionStation({
                   }`}
                 >
                    <div className="flex items-center justify-center gap-2">
-                    <span>3-stansiya: Ijodiy quticha</span>
+                    <span>{creativeStation?.title || "3-stansiya: Ijodiy quticha"}</span>
                     {station3Completed && <CheckCircle2 className="h-4 w-4 text-emerald-500" />}
                   </div>
                 </button>
@@ -596,23 +596,40 @@ export function EmotionStation({
              </div>
            )}
 
-           <div className="space-y-6">
-             <div className="font-bold text-lg text-slate-900 p-4 bg-indigo-50 rounded-xl border border-indigo-100">
-               {creativeStation.question}
-             </div>
+             {/* Items Grid */}
+             {creativeStation.items && creativeStation.items.length > 0 && (
+               <div className="mb-8">
+                 <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest mb-4 px-1">Qutidagi predmetlar:</h3>
+                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+                    {creativeStation.items.map((item, idx) => (
+                      <div key={idx} className="bg-white border-2 border-slate-100 p-3 rounded-2xl flex items-center gap-2 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all group">
+                         <span className="text-sm font-bold text-slate-700 group-hover:text-indigo-600 transition-colors">{item}</span>
+                      </div>
+                    ))}
+                 </div>
+               </div>
+             )}
 
-            {/* Items Image */}
-            {creativeStation.imageUrl && (
-              <div className="flex justify-center">
-                <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-white bg-white p-2">
-                   <img 
-                     src={creativeStation.imageUrl} 
-                     alt="Ijodiy quticha predmetlari" 
-                     className="w-full max-w-md object-contain rounded-xl"
-                   />
+             <div className="space-y-6">
+              <div className="font-bold text-lg text-slate-900 p-6 bg-indigo-50 rounded-2xl border-2 border-indigo-100 shadow-sm relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-4 opacity-10">
+                  <Brain className="h-12 w-12 text-indigo-600" />
                 </div>
+                <span className="relative z-10">{creativeStation.question}</span>
               </div>
-            )}
+
+             {/* Items Image */}
+             {creativeStation.imageUrl && (
+               <div className="flex justify-center">
+                 <div className="rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-white mt-4">
+                    <img 
+                      src={creativeStation.imageUrl} 
+                      alt="Ijodiy quticha predmetlari" 
+                      className="w-full max-w-md object-contain hover:scale-105 transition-transform duration-700"
+                    />
+                 </div>
+               </div>
+             )}
 
              <div className="grid gap-4">
                {creativeStation.options.map((option) => {

@@ -214,7 +214,7 @@ export const module4Data: Task[] = [
     type: 'emotion-station', 
     globalStation: {
       title: "“Global iz qoldir!” o‘yini",
-      description: "Maqsad:\nTalabalarda global fuqarolik kompetensiyasining asosiy komponentlari - ekologik mas’uliyat, madaniyatlararo hurmat, global ong, ijtimoiy faollikni shakllantirish.\n\nO‘yin jarayoni:\n4 ta “global stansiya” beriladi. Har stansiyada mini-vazifa bor. Talaba har stansiyadan o‘tib, o‘z “global iz”ini to‘playdi.",
+      description: "Maqsad:\nTalabalarda global fuqarolik kompetensiyasining asosiy komponentlari - ekologik mas’uliyat, madaniyatlararo hurmat, global ong, ijtimoiy faollikni shakllantirish.\n\nO‘yin jarayoni:\n4 ta “Global stansiya” beriladi. Har stansiyada mini-vazifa bor. Talaba har stansiyadan o‘tib, o‘z “Global iz”ini to‘playdi.",
       stations: [
         {
           id: 'st1',
