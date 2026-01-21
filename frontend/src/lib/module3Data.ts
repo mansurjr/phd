@@ -3,7 +3,7 @@ import type { Task } from './module1Data';
 export const module3Data: Task[] = [
   {
     number: 1,
-    title: "Matnni o‘qib o‘rganing.",
+    title: "Matnni o‘qib o‘rganing",
     type: 'content',
     content: [
       "[CENTER]Shaxsiy qobiliyatlar",
@@ -155,10 +155,10 @@ export const module3Data: Task[] = [
   },
   {
     number: 3,
-    title: "Ijodiy quticha",
+    title: "Shaxsiy qobiliyatlarni rivojlantiruvchi interaktiv o‘yin",
     type: 'emotion-station',
     emotionStation: {
-      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv;\n• vaqtni rejalashtirish;\n• mas’uliyat;\n• qaror qabul qilish;\n• o‘zini refleksiya qilish;\n• ijodiy yondashuv.\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi.",
+      instruction: "O‘yin nomi: “Self-Manager: O‘zini boshqarish stansiyasi”\n\n🎯 O‘yinning maqsadi:\nBo‘lajak tarbiyachilarda quyidagi shaxsiy qobiliyatlarni rivojlantirish:\n• emotsional boshqaruv\n• vaqtni rejalashtirish\n• mas’uliyat\n• qaror qabul qilish\n• o‘zini refleksiya qilish\n• ijodiy yondashuv\n\nTalabalar 4 ta stansiyani ketma-ket bajaradi. Har bir stansiya shaxsiy qobiliyatning alohida jihatini rivojlantiradi.\n\n1-stansiya: “Emotsiya Termometri”\n\nTalaba o‘zining hozirgi hissiy holatini tanlaydi va quyidagilardan birini bajaradi:\n• Nima sababdan shunday his qilayotgani haqida 1 jumla yozadi\n• Bu emotsiyani 1 daqiqada boshqarish usulini tanlaydi",
       promptText: "Nima sababdan o'zingizni shunday his qilayotganingiz haqida 1 jumla yozing",
       emotions: [
         {
@@ -251,7 +251,7 @@ export const module3Data: Task[] = [
     },
     decisionStation: {
       title: "🔵 2-stansiya: “Bir daqiqalik qaror”",
-      description: "Rivojlanadigan qobiliyat:\nQaror qabul qilish, tanqidiy fikrlash, irodaviy qobiliyat.\n\nVazifa:\nTalabaga birinchi qaror talab qiladigan vaziyat kartochkalari beriladi (bu keys emas, faqat 1 qatorlik mini-vazifa):",
+      description: "Rivojlanadigan qobiliyat:\n• Qaror qabul qilish\n• Tanqidiy fikrlash\n• Irodaviy qobiliyat\n\nVazifa:\nTalabaga birinchi qaror talab qiladigan vaziyat kartochkalari beriladi (bu keys emas, faqat 1 qatorlik mini-vazifa):",
       scenarios: [
         { id: 's1', text: "“Sizning guruhdoshingiz loyihani kechiktirdi. Nima qilasiz?”" },
         { id: 's2', text: "“Siz prezentatsiya oldidan hayajondasiz. Qaysi usulni tanlaysiz?”" },
@@ -265,48 +265,48 @@ export const module3Data: Task[] = [
     },
     creativeStation: {
       title: "🔵 3-stansiya: “Ijodiy quticha”",
-      description: "Rivojlanadigan qobiliyat: Ijodiy fikrlash, moslashuvchanlik, tashabbuskorlik. Vazifa: Quyidagi “Ijodiy quticha”da kasbiy faoliyatingizda zarur bo‘lgan predmetlar bor. ",
+      description: "Rivojlanadigan qobiliyat:\n• Ijodiy fikrlash\n• Moslashuvchanlik\n• Tashabbuskorlik\n\nVazifa:\nQuyidagi “Ijodiy quticha”da kasbiy faoliyatingizda zarur bo‘lgan predmetlar bor. Talabalarga quyidagi 10 ta tasodifiy predmet ekranga chiqariladi:\n• Rangli karton\n• Plastilin to‘plami\n• Ip\n• Rangli bo‘yoqlar\n• Magnitli stikerlar\n• Velcro yopishtirgich\n• Rangli tayoqchalar\n• Pastel bo‘yoqlar\n• Sensor qum\n• Shtamplar rasmlari\n\nSiz ulardan foydalanib o‘z mashg‘ulotingiz, pedagogik jarayonlaringizda foydalanish uchun material tayyorlashingiz kerak.",
       headerImageUrl: "/box.jpg",
       imageUrl: "/staffs.png",
       items: [
-        "🎨 Rangli karton",
-        "🧸 Plastilin to‘plami",
-        "🧵 Ip",
-        "🖌 Rangli bo‘yoqlar",
-        "🧲 Magnitli stikerlar",
-        "📎 Velcro yopishtirgich",
-        "🥢 Rangli tayoqchalar",
-        "🖍 Pastel bo‘yoqlar",
-        "⏳ Sensor qum",
-        "🖼 Shtamplar rasmlari"
+        "rangli karton",
+        "plastilin to‘plami",
+        "ip",
+        "rangli bo‘yoqlar",
+        "magnitli stikerlar",
+        "velcro yopishtirgich",
+        "rangli tayoqchalar",
+        "pastel bo‘yoqlar",
+        "sensor qum",
+        "shtamplar rasmlari"
       ],
-      question: "Sizlarga qutidan chiqarilgan quyidagi 10 ta tasodifiy predmetlardan foydalanib o‘z mashg‘ulotingiz, pedagogik jarayonlaringizda foydalanish uchun material tayyorlashingiz kerak.",
+      question: "Kasbiy transversal kompetensiyalaringizdan kelib chiqib siz quyidagi materiallardan foydalanib, mashg‘ulotingiz, pedagogik jarayoningizga, o‘yin jarayonlariga kerak bo‘lgan qanday materiallar tayyorlash mumkin deb o‘ylaysiz. Berilgan variantlardan to‘g‘ri javobni aniqlang.",
       options: [
         {
           letter: "A",
-          text: "“Sehrli dunyo” – Velcro (lipuchka) yordamida ota-onalar bilan birga didaktik kartochkalar yasash, “Plastilinli mo'jiza” – oilaviy jamoaviy konstruksiya, “Sensorli yo'lak” – qum va tayoqchalardan motorika uchun foydalanish, “Hikoyachi magnitlar” – ota-onalar tomonidan aytib beriladigan magnetik hikoya, “Rangli iplar san'ati” – nozik motorikani rivojlantiruvchi to'quv o'yini.",
+          text: "“Shaklni top va joylashtir” – Velcro (lipuchka) bilan didaktik kartochkalar, “Plastilin maket” – ijodiy konstruksiya mashg‘uloti, “Sensor yo‘lcha” – qum va tayoqchalar asosida nozik motorika materiali, “Magnitli syujetli hikoya” – storytelling materiali, “Rangli iplar bilan naqsh yasash”",
           isCorrect: true
         },
         {
           letter: "B",
-          text: "“Qumdan haykallar” – faqat sensor qum ishlatiladi, “Ranglarni o'rganish” – faqat bo‘yoqlar bilan chegaralanadi, ota-onalar ishtirokisiz oddiy rasm chizish, “Matematik tayoqchalar” – ota-onalar ishtirokisiz individual vazifa, “Rangli kartonli kesmalar”.",
+          text: "“Qumdan haykal yasash” – plastilin o‘rnida qum ishlatiladi, “Ranglarni yodlash kartochkasi” – faqat bo‘yoqlar bilan ishlanadi, ip va velcro talab qilinmaydi, “Tayoqchalar bilan sonlarni ayirish” – matematik o‘yin, “Rangli kartonlardan gilamcha yasash”",
           isCorrect: false
         },
         {
           letter: "C",
-          text: "“Origami dunyosi” – faqat qog‘oz ishlatiladi, ip va magnitlar chetda qoladi, “Erkin rasm chizish” – transversal kompetensiyalarga mos kelmaydi, “Magnitlarni devorga yopishtirish” – ota-onalar uchun qiziqarsiz va pedagogik bo'lmagan jarayon, “Sensor qumni aralashtirish”.",
+          text: "“Qog‘ozni buklab origami hayvonlar yasash” – ip, velcro, magnit ishlatilmaydi, “Bo‘yoqlar bilan erkin rasm chizish” – transversal kompetensiyalarga bevosita mos kelmaydi, “Magnitlarni devorga yopishtirish” – o‘yin sifatida noto‘g‘ri, “Sensor qumni suvga aralashtirish”",
           isCorrect: false
         },
         {
           letter: "D",
-          text: "“Kartondan kema yasash” – faqat bir xil materialdan foydalaniladi, “Plastilindan harflar yasash” – ijodiy bo'lmagan va ota-onalar ishtirokini nazarda tutmagan cheklangan jarayon, “Rangli ip bilan oddiy o'rash”.",
+          text: "“Kartondan kema yasash” – berilgan materiallar bilan bevosita bog‘liq emas, “Plastilindan faqat harflar yasash” – cheklangan, o‘yinli jarayon emas, “Rangli ip bilan o‘yinchoq o‘rash”",
           isCorrect: false
         }
       ]
     },
     reflectionStation: {
       title: "🔵 4-stansiya: “Mini-refleksiya aylanishi”",
-      description: "Rivojlanadigan qobiliyat:\nO‘zini rivojlantirish, refleksiya, o‘z-o‘zini boshqarish\n\nVazifa:\nBugungi transversal kompetensiyalarni rivojlantirishda o‘zingizda qanday shaxsiy qobiliyatlar rivojlanganini sezdingiz.",
+      description: "Rivojlanadigan qobiliyat:\n• O‘zini rivojlantirish\n• Refleksiya\n• O‘z-o‘zini boshqarish\n\nVazifa:\nBugungi transversal kompetensiyalarni rivojlantirishda o‘zingizda qanday shaxsiy qobiliyatlar rivojlanganini sezdingiz.",
       questions: [
         {
           id: "q1",

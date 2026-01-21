@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { Card } from '@/components/ui/card';
-import { ChevronDown, ChevronRight, Wind, Eye, Brain, Clock, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ChevronDown, ChevronRight, Wind, Eye, Brain, Clock, ArrowRight, CheckCircle2, Palette, Target } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface Emotion {
@@ -310,7 +310,7 @@ export function EmotionStation({
                   }`}
                 >
                    <div className="flex items-center justify-center gap-2">
-                    <span>{creativeStation?.title || "3-stansiya: Ijodiy quticha"}</span>
+                    <span>3-stansiya: Ijodiy quticha</span>
                     {station3Completed && <CheckCircle2 className="h-4 w-4 text-emerald-500" />}
                   </div>
                 </button>
@@ -349,34 +349,19 @@ export function EmotionStation({
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-2">Emotsional Boshqarish Stansiyasi</h2>
             {instruction && (
-              <div className="bg-white border text-left border-indigo-100 rounded-2xl p-6 shadow-sm mb-8 relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-8 bg-indigo-50 rounded-bl-full opacity-50"></div>
-                <div className="relative z-10">
-                  <h3 className="text-indigo-900 font-bold mb-4 flex items-center gap-2">
-                    <span className="p-2 bg-indigo-100 rounded-lg">
-                      <Brain className="w-5 h-5 text-indigo-600" />
-                    </span>
-                    Yo'riqnoma
-                  </h3>
-                  <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base">
-                    {instruction.split('\n\n').map((paragraph, idx) => (
-                      <div key={idx} className="whitespace-pre-line">
-                        {paragraph.startsWith('🎯') || paragraph.startsWith('O‘yin nomi:') || paragraph.includes('stansiya:') ? (
-                          <strong className="block text-slate-800 mb-1">{paragraph}</strong>
-                        ) : (
-                          paragraph
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                </div>
+              <div className="space-y-1 mb-4">
+                {instruction.split('\n').map((line, i) => (
+                  <p key={i} className="text-gray-600 text-sm">
+                    {line}
+                  </p>
+                ))}
               </div>
             )}
           </div>
 
           {!selectedEmotion ? (
             <div className="mb-8">
-              <h3 className="text-lg font-semibold mb-4 text-slate-700">Quyidagi emotsiyalardan hozirgi holatingizga mosini tanlang.</h3>
+              <h3 className="text-lg font-semibold mb-4 text-slate-700">Quyidagi emotsiyalardan hozirgi holatingizga mosini tanlang</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {emotions.map((emotion) => (
                   <button
@@ -392,7 +377,7 @@ export function EmotionStation({
                         />
                     </div>
                     <h4 className="font-bold text-slate-900 mb-1">{emotion.title}</h4>
-                    <p className="text-sm text-slate-500 leading-snug">{emotion.description}</p>
+                    <p className="text-sm text-slate-500 leading-snug whitespace-pre-wrap">{emotion.description}</p>
                   </button>
                 ))}
               </div>
@@ -416,7 +401,7 @@ export function EmotionStation({
                   </div>
                   <div className="flex-1 text-center md:text-left">
                     <h3 className="text-3xl font-black text-slate-900 mb-2">{selectedEmotion.title}</h3>
-                    <p className="text-slate-600 leading-relaxed">{selectedEmotion.description}</p>
+                    <p className="text-slate-600 leading-relaxed whitespace-pre-wrap">{selectedEmotion.description}</p>
                     
                     <div className="mt-6">
                         <label className="block text-sm font-bold text-slate-900 mb-2">
@@ -530,11 +515,22 @@ export function EmotionStation({
       {/* Station 2: Decision */}
       {activeStation === 'decision' && decisionStation && (
          <div className="animate-in fade-in slide-in-from-right-8 duration-500">
-             <div className="mb-8 p-6 bg-slate-900 rounded-3xl text-white relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-12 bg-indigo-500 blur-3xl opacity-20 rounded-full pointer-events-none"></div>
+             <div className="mb-8 p-8 bg-linear-to-br from-slate-900 to-slate-800 rounded-3xl text-white relative overflow-hidden shadow-xl border border-white/5">
+                <div className="absolute top-0 right-0 p-16 bg-indigo-500 blur-3xl opacity-20 rounded-full pointer-events-none animate-pulse"></div>
                 <div className="relative z-10">
-                    <h2 className="text-2xl font-bold mb-2">{decisionStation.title}</h2>
-                    <p className="text-slate-300">{decisionStation.description}</p>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="h-10 w-10 rounded-xl bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20">
+                        <Brain className="h-6 w-6 text-indigo-300" />
+                      </div>
+                      <h2 className="text-2xl md:text-3xl font-black tracking-tight">{decisionStation.title}</h2>
+                    </div>
+                    <div className="space-y-2 bg-white/5 backdrop-blur-xs p-4 rounded-2xl border border-white/10">
+                      {decisionStation.description.split('\n').map((line, i) => (
+                        <p key={i} className="text-slate-100 text-sm md:text-base leading-relaxed font-medium">
+                          {line}
+                        </p>
+                      ))}
+                    </div>
                 </div>
              </div>
 
@@ -598,11 +594,22 @@ export function EmotionStation({
       {/* Station 3: Creative */}
       {activeStation === 'creative' && creativeStation && (
         <div className="animate-in fade-in slide-in-from-right-8 duration-500">
-           <div className="mb-8 p-6 bg-slate-900 rounded-3xl text-white relative overflow-hidden">
-             <div className="absolute top-0 right-0 p-12 bg-pink-500 blur-3xl opacity-20 rounded-full pointer-events-none"></div>
+           <div className="mb-8 p-8 bg-linear-to-br from-slate-900 to-slate-800 rounded-3xl text-white relative overflow-hidden shadow-xl border border-white/5">
+             <div className="absolute top-0 right-0 p-16 bg-pink-500 blur-3xl opacity-30 rounded-full pointer-events-none animate-pulse"></div>
              <div className="relative z-10">
-                 <h2 className="text-2xl font-bold mb-2">{creativeStation.title}</h2>
-                 <p className="text-slate-300">{creativeStation.description}</p>
+                 <div className="flex items-center gap-3 mb-4">
+                    <div className="h-10 w-10 rounded-xl bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20">
+                      <Palette className="h-6 w-6 text-pink-300" />
+                    </div>
+                    <h2 className="text-2xl md:text-3xl font-black tracking-tight">{creativeStation.title}</h2>
+                 </div>
+                 <div className="space-y-2 bg-white/5 backdrop-blur-xs p-5 rounded-2xl border border-white/10 shadow-inner">
+                    {creativeStation.description.split('\n').map((line, i) => (
+                      <p key={i} className={`${line.trim().startsWith('•') ? 'pl-4 text-pink-100 border-l-2 border-pink-500/30' : 'text-slate-100'} text-sm md:text-base leading-relaxed font-medium`}>
+                        {line}
+                      </p>
+                    ))}
+                  </div>
              </div>
            </div>
 
@@ -619,40 +626,23 @@ export function EmotionStation({
              </div>
            )}
 
-             {/* Items Grid */}
-             {creativeStation.items && creativeStation.items.length > 0 && (
-               <div className="mb-8">
-                 <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest mb-4 px-1">Qutidagi predmetlar:</h3>
-                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
-                    {creativeStation.items.map((item, idx) => (
-                      <div key={idx} className="bg-white border-2 border-slate-100 p-3 rounded-2xl flex items-center gap-2 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all group">
-                         <span className="text-sm font-bold text-slate-700 group-hover:text-indigo-600 transition-colors">{item}</span>
-                      </div>
-                    ))}
-                 </div>
-               </div>
-             )}
+           <div className="space-y-6">
+             <div className="font-bold text-lg text-slate-900 p-4 bg-indigo-50 rounded-xl border border-indigo-100">
+               {creativeStation.question}
+             </div>
 
-             <div className="space-y-6">
-              <div className="font-bold text-lg text-slate-900 p-6 bg-indigo-50 rounded-2xl border-2 border-indigo-100 shadow-sm relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-4 opacity-10">
-                  <Brain className="h-12 w-12 text-indigo-600" />
+            {/* Items Image */}
+            {creativeStation.imageUrl && (
+              <div className="flex justify-center">
+                <div className="rounded-2xl overflow-hidden shadow-lg border-4 border-white bg-white p-2">
+                   <img 
+                     src={creativeStation.imageUrl} 
+                     alt="Ijodiy quticha predmetlari" 
+                     className="w-full max-w-md object-contain rounded-xl"
+                   />
                 </div>
-                <span className="relative z-10">{creativeStation.question}</span>
               </div>
-
-             {/* Items Image */}
-             {creativeStation.imageUrl && (
-               <div className="flex justify-center">
-                 <div className="rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-white mt-4">
-                    <img 
-                      src={creativeStation.imageUrl} 
-                      alt="Ijodiy quticha predmetlari" 
-                      className="w-full max-w-md object-contain hover:scale-105 transition-transform duration-700"
-                    />
-                 </div>
-               </div>
-             )}
+            )}
 
              <div className="grid gap-4">
                {creativeStation.options.map((option) => {
@@ -723,11 +713,22 @@ export function EmotionStation({
 
       {activeStation === 'reflection' && reflectionStation && (
         <div className="animate-in fade-in slide-in-from-right-8 duration-500">
-           <div className="mb-8 p-6 bg-slate-900 rounded-3xl text-white relative overflow-hidden">
-             <div className="absolute top-0 right-0 p-12 bg-emerald-500 blur-3xl opacity-20 rounded-full pointer-events-none"></div>
+           <div className="mb-8 p-8 bg-linear-to-br from-slate-900 to-slate-800 rounded-3xl text-white relative overflow-hidden shadow-xl border border-white/5">
+             <div className="absolute top-0 right-0 p-16 bg-emerald-500 blur-3xl opacity-20 rounded-full pointer-events-none animate-pulse"></div>
              <div className="relative z-10">
-                 <h2 className="text-2xl font-bold mb-2">{reflectionStation.title}</h2>
-                 <p className="text-slate-300">{reflectionStation.description}</p>
+                 <div className="flex items-center gap-3 mb-4">
+                    <div className="h-10 w-10 rounded-xl bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20">
+                      <Target className="h-6 w-6 text-emerald-300" />
+                    </div>
+                    <h2 className="text-2xl md:text-3xl font-black tracking-tight">{reflectionStation.title}</h2>
+                 </div>
+                 <div className="space-y-2 bg-white/5 backdrop-blur-xs p-4 rounded-2xl border border-white/10">
+                    {reflectionStation.description.split('\n').map((line, i) => (
+                      <p key={i} className="text-slate-100 text-sm md:text-base leading-relaxed font-medium">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
              </div>
            </div>
 
